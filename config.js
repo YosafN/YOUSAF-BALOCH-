@@ -3,28 +3,28 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '923184474176' ;
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority" ;
+global.owner = process.env.OWNER_NUMBER || '918010431346' ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Ghost:33jcrpXJmh4CQfxD@cluster0.ya4uhjm.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=5000 ;
 global.audio = '' ; 
 global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
-global.email = 'samsamsun789@gmail.com' ;
-global.github = 'https://github.com/SuhailTechInfo/Secktor-Md' ;
-global.location = 'Lahore PK' ;
-global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
-global.sudo =  process.env.SUDO || "923004591719" ;
-global.devs = "923184474176"; //Dont change it From here
-global.website = 'https://github.com/SuhailTechInfo/Secktor-Md' ; //wa.me/+91000000000000
+global.email = '' ;
+global.github = 'https://github.com' ;
+global.location = 'maharastra, mumbai' ;
+global.gurl = 'https://youtube.com' ; // add your username
+global.sudo =  process.env.SUDO || "919823642839" ;
+global.devs = "918010431346"; //Dont change it From here
+global.website = 'https://github.com' ; //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || 'Put Your Session Id Here',
-  botname: process.env.BOT_NAME || 'ʟʏғᴇᴇ²²¹-ᴍᴅ',
-  ownername:  process.env.OWNER_NAME || `It'x Suhail`,
+  botname: process.env.BOT_NAME || '𝐷𝛯𝛻𝛪𝐿 🖤⛓️✨',
+  ownername:  process.env.OWNER_NAME || `It'x ∂εѵเℓ`,
   author:  process.env.PACK_AUTHER || '', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'true',
-  packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
+  packname:  process.env.PACK_NAME || "\t♡ 𝐷𝛯𝛻𝛪𝐿 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
@@ -41,7 +41,7 @@ module.exports = {
   BRANCH: process.env.BRANCH || 'main',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
-  caption :process.env.CAPTION || "    *•ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟʏғᴇᴇ²²¹-ᴍᴅ•* ",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "    *•ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐷𝛯𝛻𝛪𝐿•* ",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com"),
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE  ,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.0.0.3',
