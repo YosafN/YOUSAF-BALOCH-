@@ -76,29 +76,29 @@ Secktor.cmd({
                 moment.tz.setDefault('Asia/karachi').locale('id')
                 const date = moment.tz('asia/karachi').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────《  *${Config.botname}*  》────⊷
-│ ╭──────✧❁✧──────◆
-│ │ Theme:- ${tlang().title}
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
-│ ╰──────✧❁✧──────◆
-╰══════════════════⊷\n
+                let str = `╔═════《  *${Config.botname}*  》════≽
+║✰╭┉┉┉┉┉┉┉✧❁✧┉┉┉┉┉┉◆
+║✰┇ Theme:- ${tlang().title}
+║✰┇ Owner:- ${Config.ownername}
+║✰┇ Plugins:- ${commands.length}
+║✰┇ Uptime:- ${runtime(process.uptime())}
+║✰┇ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+║✰┇ Time:- ${time}
+║✰┇ Date:- ${date}
+║✰╰┉┉┉┉┉┉┉✧❁✧┉┉┉┉┉┉◆
+╚═══════════════════≽\n
 ` ;
              
               for (const category in cmds) 
               {
-                 str += `╭────❏ *${tiny(category)}* ❏\n` ;
-                 if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ❏\n` ;      
-                      for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
-                      str += `╰━━━━━━━━━━━━━──⊷\n`  ;
+                 str += `╭┉┉┉┉┉✰ *${tiny(category)}* ✰\n` ;
+                 if(text.toLowerCase() == category.toLowerCase()){ str = `╭┉┉┉┉┉✰ *${tiny(category)}* ✰\n` ;      
+                      for (const plugins of cmds[category]) { str += `┇ ${fancytext(plugins,1)}\n` ; }
+                      str += `╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`  ;
                       break ;
                  }
-                 else { for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
-                       str += `╰━━━━━━━━━━━━━━──⊷\n`  ; 
+                 else { for (const plugins of cmds[category]) { str += `┇ ${fancytext(plugins,1)}\n` ; }
+                       str += `╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`  ; 
                  }
 
               }//For Looop end
@@ -122,14 +122,14 @@ Secktor.cmd({
         async(Void, citel) => {
             const { commands } = require('../lib');
             let str = `
-╭━━〘 *${Config.botname}* 〙────⊷     
-┃ ✭ Theme: ${tlang().title}
-┃ ✭ Prefix: ${prefix}
-┃ ✭ Owner: ${Config.ownername}
-┃ ✭ Commands: ${commands.length}
-┃ ✭ Uptime: ${runtime(process.uptime())}
-┃ ✭ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-╰━━━━━━━━━━━━━━⊷\n`
+╭┉┉〘 *${Config.botname}* 〙┉┉┉┉┉≽     
+┇ ✭ Theme: ${tlang().title}
+┇ ✭ Prefix: ${prefix}
+┇ ✭ Owner: ${Config.ownername}
+┇ ✭ Commands: ${commands.length}
+┇ ✭ Uptime: ${runtime(process.uptime())}
+┇ ✭ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`
 
             for (let i = 0; i < commands.length; i++) 
             {
