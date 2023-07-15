@@ -34,7 +34,7 @@ Secktor.cmd({
         var inital = new Date().getTime();
         await citel.reply('```Testing Ping!!!```');
         var final = new Date().getTime();
-        return await citel.reply('*Pong*\n *' + (final - inital) + ' ms* ');
+        return await citel.reply('*Boss my speed is*\n *' + (final - inital) + ' ms* ');
     });
 
 
@@ -93,11 +93,11 @@ Secktor.cmd({
               {
                  str += `╭┉┉┉┉┉✰ *${tiny(category)}* ✰\n` ;
                  if(text.toLowerCase() == category.toLowerCase()){ str = `╭┉┉┉┉┉✰ *${tiny(category)}* ✰\n` ;      
-                      for (const plugins of cmds[category]) { str += `┇ ${fancytext(plugins,1)}\n` ; }
+                      for (const plugins of cmds[category]) { str += `┇✗ ${fancytext(plugins,1)}\n` ; }
                       str += `╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`  ;
                       break ;
                  }
-                 else { for (const plugins of cmds[category]) { str += `┇ ${fancytext(plugins,1)}\n` ; }
+                 else { for (const plugins of cmds[category]) { str += `┇✗ ${fancytext(plugins,1)}\n` ; }
                        str += `╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`  ; 
                  }
 
@@ -123,12 +123,12 @@ Secktor.cmd({
             const { commands } = require('../lib');
             let str = `
 ╭┉┉〘 *${Config.botname}* 〙┉┉┉┉┉≽     
-┇ ✭ Theme: ${tlang().title}
-┇ ✭ Prefix: ${prefix}
-┇ ✭ Owner: ${Config.ownername}
-┇ ✭ Commands: ${commands.length}
-┇ ✭ Uptime: ${runtime(process.uptime())}
-┇ ✭ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┇ ⛥ Theme: ${tlang().title}
+┇ ⛥ Prefix: ${prefix}
+┇ ⛥ Owner: ${Config.ownername}
+┇ ⛥ Commands: ${commands.length}
+┇ ⛥ Uptime: ${runtime(process.uptime())}
+┇ ⛥ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉≽\n`
 
             for (let i = 0; i < commands.length; i++) 
@@ -140,7 +140,7 @@ Secktor.cmd({
 
             
  
- //str += `╰━━━━━━━━━━━───⊷\nsᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo`
+ //str += ` `
             return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str + Config.caption ,footer: tlang().footer, headerType: 4 })
         }
     )
