@@ -174,10 +174,10 @@ cmd({
         let textt = `
 ══✪〘   *Tag All*   〙✪══
 
-➲ *Message :* ${text ? text : "blank Message"} \n ${Config.caption} \n\n
-➲ *Author:* ${citel.pushName} 🔖
+💌 *Message :* ${text ? text : "blank Message"} \n ${Config.caption} \n\n
+🥵 *Author:* ${citel.pushName} 🔖
 `
-        for (let mem of participants) { textt += `📍 @${mem.id.split("@")[0]}\n`;   }
+        for (let mem of participants) { textt += `🧣 @${mem.id.split("@")[0]}\n`;   }
         Void.sendMessage(citel.chat, { text: textt,  mentions: participants.map((a) => a.id) }, {  quoted: citel });
     }
 )
