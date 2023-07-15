@@ -46,7 +46,7 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.0.0.3',
   LANG: process.env.THEME|| 'LUFFY',
-  WORKTYPE: process.env.WORKTYPE || 'public'
+  WORKTYPE: process.env.WORKTYPE || 'Private'
 };
 
 
