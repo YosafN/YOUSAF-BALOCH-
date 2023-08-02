@@ -8,11 +8,11 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Suhail Tech Info"
+      "value": "𝐌𝐑 | 𝐏∆𝐏∆𝐈 "
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://i.imgur.com/NpA3ZsJ.jpeg"
+     "value": "https://telegra.ph/file/39f42aadf576c843679f9.jpg"
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
@@ -65,7 +65,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "923184474176"
+       "value": "917718617125"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
@@ -77,8 +77,8 @@
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see in Welcome when a new user joins a Group.",
-       "value": "@user @pp Welcome Bruhhh In @gname.....!!!!!😊👇🏻♥️\n\n_GROUP DESCRIPTION_\n@desc\n\n\n__________\n Support us by Subscribing \n Youtube.com/@suhailtechinfo0",
-       "required" :false
+       "value": "@user @pp Welcome Bruhhh In @gname.....!!!!!😊👇🏻♥️\n\n_GROUP DESCRIPTION_\n@desc\n\n\n__________\n Created by 𝐌𝐑 | 𝐏∆𝐏∆𝐈 ",
+       "required" :true
   },
   "MONGODB_URI": {
     "description": "Replace it, If you have your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
@@ -95,12 +95,12 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-     "value": "",
+     "value": "𝐌𝐑 | 𝐏∆𝐏∆𝐈 ",
      "required": false 
   },
 "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-     "value": "",
+     "value": "𝐌𝐑 | 𝐏∆𝐏∆𝐈 ",
      "required": false 
   }
 },
