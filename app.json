@@ -1,14 +1,14 @@
 {
-  "name": "Suhail-Md By Suhail Tech Info",
-  "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://i.imgur.com/NpA3ZsJ.jpeg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "name": "Silver Fox ",
+  "description": "A Whatsapp robot built in NodeJs to make experience better\n\t if Any Problem : https://chat.whatsapp.com/LxRHwWOJLK1C0DKT8GKjBm",
+  "logo": "https://telegra.ph/file/5d15c748a2bb15ea5c8ad.jpg",
+  "keywords": ["whatsapprobot", "SilverFox", "Silver Fox", "SilverFox", "SilverFox", "SilverFox","SilverFox","SilverFox","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-    "description": "Name of Bot Owner",    
-    "value": "Suhail Tech Info"
+    "description": "Silver Fox",    
+    "value": "Silver Fox Robot"
   },
   "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
@@ -28,7 +28,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "true"
+    "value": "false"
   },
   "MSGS_IN_LOG": {
     "description": "Fill the value true if you want to see Messages in Console.",
@@ -42,7 +42,7 @@
   },
   "DISABLE_PM": {
     "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
-    "value": "false",
+    "value": "true",
     "required" :false
   },
   "ALWAYS_ONLINE": {
@@ -56,10 +56,11 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "923184474176"
+    "value": "923036631033,923212173082,923462086781"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
+    "description": "Secktor;;;WhineTricking
+	   "
   },
   "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
@@ -68,25 +69,25 @@
   },
   "MONGODB_URI": {
     "description": "Replace it, If you have your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
-    "value": ""
+    "value": "mongodb+srv://Unknownparty:<UDrDCaMjejf6LDm>@cluster0.ff7jxpt.mongodb.net/?retryWrites=true&w=majority"
   },
   "MODE": {
     "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-    "value": "private"
+    "value": "public"
   },
   "AUTO_REACTION": {
     "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
-    "value": "false",
+    "value": "true",
     "required": false 
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-    "value": "",
+    "value": "Silver",
     "required": false 
   },
   "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-    "value": "",
+    "value": "Fox",
     "required": false 
   }
 },
