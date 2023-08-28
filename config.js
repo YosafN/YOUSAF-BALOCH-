@@ -21,10 +21,10 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
+  sessionName: process.env.SESSION_ID || "CurrentsFathered",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'Nouman Afzal',
   botbgm: process.env.BOT_BGM || 'false',
-  ownername:  process.env.OWNER_NAME || `It'x Suhail`,
+  ownername:  process.env.OWNER_NAME || `It'x Nouman Afzal`,
   author:  process.env.PACK_AUTHER || '',
   errorChat : process.env.ERROR_CHAT|| 'chat',
   read_status : process.env.AUTO_READ_STATUS || 'false',
@@ -48,7 +48,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ Nouman Afzal```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.0.3',
   LANG: process.env.THEME || 'SUHAIL',
