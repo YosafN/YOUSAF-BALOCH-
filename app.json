@@ -1,5 +1,5 @@
 {
-  "name": "Suhail-Md By Suhail Tech Info",
+  "name": "TRX QADEER BY SAM FAMILY",
   "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://i.imgur.com/NpA3ZsJ.jpeg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
@@ -7,7 +7,7 @@
   "stack": "container",
 "env": { 
   "OWNER_NAME": {
-    "description": "Name of Bot Owner",    
+    "description": "TRX QADEER",    
     "value": "Suhail Tech Info"
   },
   "HEROKU_API_KEY": {
