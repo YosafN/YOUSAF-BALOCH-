@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923405614773';
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://niluqueen8:M.Arslan78600@cluster0.gswawn9.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=5000  ; 
 global.audio = '' ; 
 global.video = '' ;
@@ -47,9 +47,9 @@ module.exports = {
   BRANCH: process.env.BRANCH || 'main',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "4WzwCChYB82annxe1fzQNZxR",
   caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ M.Arslan M.Abbas```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'0cOviPToRDHgR7Mgd454T3BlbkFJWQgbDi8B8mU8j6FlPYxZ' ,
   VERSION: process.env.VERSION || 'v.1.0.3',
   LANG: process.env.THEME || 'M.Arslan M.Abbas',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
