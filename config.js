@@ -22,15 +22,15 @@ global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'M.Arslan M.Abbas',
+  botname: process.env.BOT_NAME || '𝑭𝒐𝒍𝒍𝒐𝒘👑𝑭𝒃:𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𝑴.𝑨𝒃𝒃𝒂𝒔',
   botbgm: process.env.BOT_BGM || 'true',
-  ownername:  process.env.OWNER_NAME || `M.Arslan`,
-  author:  process.env.PACK_AUTHER || 'M.Arslan M.Abbas',
+  ownername:  process.env.OWNER_NAME || `𝑴.𝑨𝒓𝒔𝒍𝒂𝒏`,
+  author:  process.env.PACK_AUTHER || '𝑭𝒐𝒍𝒍𝒐𝒘👑𝑭𝒃:𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𝑴.𝑨𝒃𝒃𝒂𝒔',
   errorChat : process.env.ERROR_CHAT|| 'chat',
   read_status : process.env.AUTO_READ_STATUS || 'false',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
-  autoreaction: process.env.AUTO_REACTION || 'false',
+  autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'xxx,sex,mia,boobs,sexy',
   alwaysonline: process.env.ALWAYS_WAPRESENCE || 'recording', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
@@ -48,10 +48,10 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "4WzwCChYB82annxe1fzQNZxR",
-  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ M.Arslan M.Abbas```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝑭𝒐𝒍𝒍𝒐𝒘👑𝑭𝒃:𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𝑴.𝑨𝒃𝒃𝒂𝒔```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'0cOviPToRDHgR7Mgd454T3BlbkFJWQgbDi8B8mU8j6FlPYxZ' ,
   VERSION: process.env.VERSION || 'v.1.0.3',
-  LANG: process.env.THEME || 'M.Arslan M.Abbas',
+  LANG: process.env.THEME || '𝑴.𝑨𝒃𝒃𝒂𝒔',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'private'
 };
