@@ -21,7 +21,7 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "FleshCorner",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || '𝑭𝒐𝒍𝒍𝒐𝒘👑𝑭𝒃:𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𝑴.𝑨𝒃𝒃𝒂𝒔',
   botbgm: process.env.BOT_BGM || 'true',
   ownername:  process.env.OWNER_NAME || `𝑴.𝑨𝒓𝒔𝒍𝒂𝒏`,
