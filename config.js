@@ -19,7 +19,7 @@ global.devs = "923405614773"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/SuhailTechInfo/Suhail-Md';
 global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-Md?v=1';
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/8c671c874fecaca220c1c.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "FleshCorner",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || '𝑭𝒐𝒍𝒍𝒐𝒘👑𝑭𝒃:𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𝑴.𝑨𝒃𝒃𝒂𝒔',
@@ -29,7 +29,7 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT|| 'chat',
   read_status : process.env.AUTO_READ_STATUS || 'false',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
+  packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ Whatsapp нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'xxx,sex,mia,boobs,sexy',
   alwaysonline: process.env.ALWAYS_WAPRESENCE || 'recording', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
@@ -41,7 +41,7 @@ module.exports = {
   disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog:process.env.MSGS_IN_LOG ||'false',
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
-  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
+  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true',
   antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com',
   //antilinkaction: process.env.BRANCH || 'remove',
   BRANCH: process.env.BRANCH || 'main',
