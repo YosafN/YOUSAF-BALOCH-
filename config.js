@@ -14,7 +14,7 @@ global.email = 'elightlevels@gmail.com' ;
 global.github = 'https://github.com/SuhailTechInfo/Secktor-Md' ;
 global.location = 'Lahore Pakistan' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
-global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
+global.gurl = 'https://instagram.com/kashiff_alii' ; // add your username
 global.sudo =  process.env.SUDO || "923036631033" ;
 global.devs = "923036631033"; //Dont change it From here
 global.website = 'https://chat.whatsapp.com/LxRHwWOJLK1C0DKT8GKjBm' ; //wa.me/+923036631033
@@ -32,7 +32,7 @@ module.exports = {
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'xxx',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
-  antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
+  antifake :   process.env.FAKE_COUNTRY_CODE ||'63',
   readmessage: process.env.READ_MESSAGE || 'false',
   readcmds : process.env.READ_COMMANDS || 'true',
   HANDLERS: process.env.PREFIX || '.',
@@ -43,7 +43,7 @@ module.exports = {
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true',
   antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com',
   //antilinkaction: process.env.BRANCH || 'remove',
-  BRANCH: process.env.BRANCH || 'main',
+  BRANCH: process.env.BRANCH || 'main-1',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "Nh4iTxEH5k3vmHugFqoYktGM",
