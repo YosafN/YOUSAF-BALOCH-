@@ -29,7 +29,7 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT|| 'chat',
   read_status : process.env.AUTO_READ_STATUS || 'false',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ Whatsapp нᴇʀᴇ ---" ,
+  packname:  process.env.PACK_NAME || "\t   𓅋 𝑴.𝑨𝒓𝒔𝒍𝒂𝒏 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ Whatsapp нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'xxx,sex,mia,boobs,sexy',
   alwaysonline: process.env.ALWAYS_WAPRESENCE || 'recording', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
