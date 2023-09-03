@@ -19,10 +19,10 @@ global.devs = "923184474176"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/SuhailTechInfo/Suhail-Md';
 global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-Md?v=1';
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d9a2df671c170685f8a8b.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
+  botname: process.env.BOT_NAME || 'ALI ASGHER',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x Suhail`,
   author:  process.env.PACK_AUTHER || '',
@@ -51,7 +51,7 @@ module.exports = {
   caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.0.6',
-  LANG: process.env.THEME || 'SUHAIL',
+  LANG: process.env.THEME || 'ALI ASGHER',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'private'
 };
