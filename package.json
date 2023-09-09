@@ -1,12 +1,12 @@
 {
-               "name": "suhail-md",
+               "name": "DASA<3",
                "version": "1.0.9",
                "description": "Multi device whatsapp bot by SuhailTechInfo.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail-Md",
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name leon8982",
                 "stop": "pm2 stop Suhail-Md"
                 },
                "author": "SuhailTechInfo",
@@ -77,5 +77,5 @@
                  "bugs": {
                  "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues"
                   },
-                 "homepage": "https://github.com/SuhailTechInfo/Suhail-Md#readme"
+                 "homepage": "https://github.com/SuhailTechInfo/leon8982#readme"
                   }
