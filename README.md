@@ -1,4 +1,6 @@
  <h1 align="center"> Qasimjiho Md </h1> 
+ 
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HELLO+IM+QASIM+JIHO+WHATSAPP+BOT)](https://git.io/typing-svg)
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 <p align="center">
@@ -23,28 +25,7 @@
 <p align="center">
  <a href="https://chat.whatsapp.com/CiqdwyiDV9eCR3xLe0Ttvi" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
-
----
-
-
-
-
-  
- 
- 
-
-
-
-## Bot Games
----
-1. ***Connect Four Game.***
-2.  ***Tic Tac Toe.***
-3.  ***Number Guessing Game.***
-4.  ***Word chain Game.***
-5.  ***Rolling Dice.***
-##
+  </
 
 
 
