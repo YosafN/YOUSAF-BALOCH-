@@ -22,7 +22,7 @@
   </a>
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{qasimjiho}/count.svg" alt="SuhailTechInfo :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{qasimjiho}/count.svg" alt=Qasimjiho :: Visitor's Count" /></p>
 <p align="center">
  <a href="https://chat.whatsapp.com/CiqdwyiDV9eCR3xLe0Ttvi" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -39,12 +39,12 @@
 ## Deployment Methods
 ---
 1.  ***Get [`SESSION ID 1`](https://replit.com/@SuhailTechInfo/Suhail-Md?v=1), [`SESSION ID 2`](https://replit.com/@SuhailTechInfo/Secktor-Bot?v=1) by scanning QR code. And Scan it `Go-to Whatapp>Three dots>Linked Devices`***
-2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
-3.  ***Click [`FORK`](https://github.com/SuhailTechInfo/Suhail-Md/fork) and `Star ⭐ Repository` if you Like that Bot.***
-4.  ***Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).***
+2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`]().***
+3.  ***Click [`FORK`](https://github.com/Qasimjiho/Qasimjiho) and `Star ⭐ Repository` if you Like that Bot.***
+4.  ***Deploy tutorial [`Youtube Video`]().***
 
-5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)***
-6.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/SuhailTechInfo/Suhail-Md)***
+5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`]()***
+6.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/apps/qasimg/resources)***
 7.  ***Deploy on [`Replit`](https://replit.com/github/SuhailTechInfo/Suhail-Md)***
 
 ##
@@ -52,7 +52,7 @@
 
 ***Use this Public MongoDb Key, If you dont have.!***
 ```
-mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://qasim:qas@cluster0.mqn5gav.mongodb.net/?retryWrites=true&w=majority
 ```
 ---
 
@@ -60,4 +60,4 @@ mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true
 
 
 
-###Deploy on [`heroku`]( https://dashboard.heroku.com/new?template=https://github.com/SuhailTechInfo/Suhail-Md)
+###Deploy on [`heroku`]( https://dashboard.heroku.com/apps/qasimg/resources)
