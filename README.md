@@ -45,8 +45,8 @@
 3.  ***Click [`FORK`](https://github.com/Qasimjiho/Qasimjiho) and `Star ⭐ Repository` if you Like that Bot.***
 4.  ***Deploy tutorial [`Youtube Video`]().***
 
-5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`]()***
-6.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/apps/qasimg/resources)***
+5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`]()
+6.  ***[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)***
 7.  ***Deploy on [`Replit`](https://replit.com/github/SuhailTechInfo/Suhail-Md)***
 
 ##
