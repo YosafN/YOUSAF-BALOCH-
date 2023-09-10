@@ -46,7 +46,7 @@
 4.  ***Deploy tutorial [`Youtube Video`]().***
 
 5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`]()
-    ![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+    ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Qasimjiho/Qasimjiho)***
 7.  ***Deploy on [`Replit`](https://replit.com/github/SuhailTechInfo/Suhail-Md)***
 
 ##
