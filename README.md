@@ -1,6 +1,8 @@
  <h1 align="center"> Qasimjiho Md </h1> 
  
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=HELLO+IM+QASIMJIHO+Qasim+WHATSAPP+BOT)](https://git.io/typing-svg)
+<a href="https://github.com/Qasim">
+    <img src="https://i.imgur.com/7WApLO7.jpeg" width="700px">
 
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
