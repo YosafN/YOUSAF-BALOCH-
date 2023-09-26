@@ -1,4 +1,4 @@
-## Deploy on VPS or PC.
+npm start## Deploy on VPS or PC.
 - You need to Install git,ffmpeg,curl,nodejs,yarn with pm2 
    1. Install git ffmpeg curl 
       ``` 
