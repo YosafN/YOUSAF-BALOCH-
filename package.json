@@ -1,7 +1,7 @@
 {
-               "name": "suhail-md",
+               "name": "༺ 𒆜ᴳᴱᴱ𒆜 ༻bot",
                "version": "1.2.2",
-               "description": "Multi device whatsapp bot by SuhailTechInfo.",
+               "description": "Multi device whatsapp bot by gee.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
