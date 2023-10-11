@@ -1,5 +1,5 @@
 {
-               "name": "suhail-md",
+               "name": "CHANU-md",
                "version": "1.2.2",
                "description": "Multi device whatsapp bot by SuhailTechInfo.",
                "main": "lib/client.js",
@@ -7,7 +7,7 @@
                "license": "GPL-3.0",
    "scripts": {
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail-Md",
-                "stop": "pm2 stop Suhail-Md"
+                "stop": "pm2 stop ChANU-MD"
                 },
                "author": "SuhailTechInfo",
               "dependencies": {
