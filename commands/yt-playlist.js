@@ -61,7 +61,7 @@ smd({
         },
         async(Void, citel, text) => {
             const getRandom = (ext) => {  return `${Math.floor(Math.random() * 10000)}${ext}`; };
-            if (!text) {  citel.reply(`❌Please provide me a url`);   return; }
+            if (!text) {  citel.reply(`❌Please provide me a url ᴄʜᴀɴᴜ-ᴍᴅ`);   return; }
 let urlYtt = text.split('=')[1]
 console.log(urlYtt)
 var opts = { listId: urlYtt }
