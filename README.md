@@ -1,8 +1,8 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> CHANU-MD </h1> 
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 <p align="center">
-  <a href="https://youtube.com/@suhailtechinfo">
+  <a href="https://youtube.com/watch?v=VPIDwJMVNHM">
     <img alt="Suhail docs" height="300" src="https://telegra.ph/file/8483c16989c23707c7199.jpg">
   </a>
 </p>
@@ -15,7 +15,7 @@
   <a aria-label="Suhail_Md is free to use" href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE" target="_blank">
     <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
   </a>
-  <a aria-label="Suhail_Md is free to use" href="https://youtube.com/@suhailtechinfo" target="_blank">
+  <a aria-label="Suhail_Md is free to use" href="https://youtube.com/watch?v=VPIDwJMVNHM" target="_blank">
     <img alt="SuhailTechInfo Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 
