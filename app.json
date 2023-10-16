@@ -1,14 +1,14 @@
 {
-  "name": "Suhail-Md By Suhail Tech Info",
-  "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://i.imgur.com/NpA3ZsJ.jpeg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "name": "Chibhareta-Md By Chibhareta Tech Info",
+  "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/chibhareta",
+  "logo": "https://telegra.ph/file/3313ade2e5f03dadbbedc.jpg",
+  "keywords": ["whatsappbot", "chibhareta", "chibhareta Md Wa bot", "chibhareta-Md", "ChibharetaMdWhatsaooBot", "chibharetaWaBot","ChibharetaMD","Chibhareta Md Whatsapp Bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
     "description": "Name of Bot Owner",    
-    "value": "Suhail Tech Info",
+    "value": "꫞ ₢hᷝiᷧbᷟhaᷟṛᷢḗṫᶐᥧ 𓆗🅫",
     "required" :true
   }, 
   "HEROKU_API_KEY": {
@@ -62,7 +62,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "923184474176"
+    "value": "263777009138"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
