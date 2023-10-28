@@ -3,15 +3,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '254796861806';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
 global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
-global.email = 'samsamsun789@gmail.com' ;
-global.location = 'Lahore Pakistan' ;
+global.email = 'vawulatorag@gmail.com' ;
+global.location = 'KENYA JUJA' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
 global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '923184474176'; ;
@@ -19,15 +19,15 @@ global.devs = "923184474176"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/SuhailTechInfo/Suhail-Md';
 global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-Md?v=1';
 global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/NpA3ZsJ.jpeg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://images.app.goo.gl/ysYkREPq1x75bqMv6' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
-  botbgm: process.env.BOT_BGM || 'false',
-  ownername:  process.env.OWNER_NAME || `It'x Suhail`,
-  author:  process.env.PACK_AUTHER || '',
+  botname: process.env.BOT_NAME || 'VAWULATOR AG',
+  botbgm: process.env.BOT_BGM || 'true',
+  ownername:  process.env.OWNER_NAME || `NIETO`,
+  author:  process.env.PACK_AUTHER || 'AG',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
-  read_status : process.env.AUTO_READ_STATUS || 'false',
+  read_status : process.env.AUTO_READ_STATUS || true',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
   packname:  process.env.PACK_NAME || "\t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
@@ -48,10 +48,10 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "VAWULATOR AG",   //*『sᴜʙsᴄʀɪʙᴇ • VAWULATOR AG』*\n youtube.com/@VAWULATOR AG"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'SUHAIL',
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'VAWULATOR',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'private',
   KOYEB_API : process.env.KOYEB_API || ''
