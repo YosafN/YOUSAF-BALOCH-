@@ -3,12 +3,12 @@ const fs = require('fs-extra')
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') :'254740578431';
 global.mongodb = process.env.MONGODB_URI  || ""; // "mongodb+srv://suhail:suhail@cluster0.tuhzpez.mongodb.net/?retryWrites=true&w=majority" ;//process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.DATABASE_URI = process.env.DATABASE_URI || "" ; // "postgres://drchnhfxnxvkhb:fe7e6999d202f14f61af1837ef5e1eb07980f37b854ba57c34add33a21453009@ec2-3-221-177-27.compute-1.amazonaws.com:5432/d74crch1e6dgt0";
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
-global.audio = '' ;  
-global.video = '' ;
+global.audio = 'true' ;  
+global.video = 'true' ;
 global.blockJids = process.env.BLOCK_JID || "120363023983262391@g.us" ;
 global.allowJids = process.env.ALLOW_JID || "null" ;//'120363022922797633@g.us' ;
 global.email = 'samsamsun789@gmail.com' ;
@@ -23,21 +23,21 @@ global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg' ;
 
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",
+  sessionName: process.env.SESSION_ID || "PiratesBeulah",
   botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
   ownername: process.env.OWNER_NAME || `It'x Suhail`,
   author: process.env.PACK_AUTHER || '',
   packname: process.env.PACK_NAME || "", // \t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ --- 
   style: process.env.STYLE || '1',  // put '1' & "2" here to check bot styles
   errorChat: process.env.ERROR_CHAT || '', // put 'chat' here to send error in chat ,where it accures
-  read_status: process.env.AUTO_READ_STATUS || 'false',
+  read_status: process.env.AUTO_READ_STATUS || 'true',
   save_status: process.env.AUTO_SAVE_STATUS || 'false',
 
   autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
   //antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
   alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   //antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'212',
-  readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
+  readmessage: process.env.READ_MESSAGE || 'true',   //  | 'false' | 'true' | 
   readcmds: process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
   HANDLERS: process.env.PREFIX || '.',
   warncount: process.env.WARN_COUNT || '3',
@@ -57,7 +57,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'v.1.2.5',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'SUHAIL',
   menu: process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'private',
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API: process.env.KOYEB_API || '',
 
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
