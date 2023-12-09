@@ -7,18 +7,18 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-    "description": "Name of Bot Owner",    
-    "value": "Suhail Tech Info",
+    "description": "the greatest of all time",    
+    "value": "special boy",
     "required" :true
   },   
   "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
-    "value": "",
+    "value": "".
 	  "required" :true 
   },   
   "HEROKU_APP_NAME": {
     "description": "Put Your Heroku App Name Here",
-    "value": "",
+    "value": "".
 	 "required" :false
   }, 
   "WAPRESENCE": {
@@ -52,24 +52,25 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "923184474176"
+    "value": "+255744983776"
   },
-   "SESSION_ID": {
+   "SESSION_ID": {SESSION_08_30_12_09_BowingCosmo
+
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
   },
   "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-    "value": "",
+    "value": "".
     "required" :false
   }, 
   "ELEVENLAB_API_KEY": {
     "description": "Put your ElevenLab api key here for Aitts. Get it from https://elevenlabs.io/ ",
-    "value": "",
+    "value": "".
     "required" :false
   }, 
   "REMOVE_BG_KEY": {
     "description": "Please put your REMOVE BG KEY here.Get it from removeBg.com ",
-    "value": "",
+    "value": "".
     "required" :false
   },
   "MONGODB_URI": {
@@ -79,17 +80,17 @@
   },
   "USER_IMAGES": {
     "description": "Put USER IMAGES/VIDEOS URL, Make Sure Url have extention like .mp4,.jpg,.png etc",
-    "value": "",
+    "value": "".
     "required" :false
   },
   "MODE": {
     "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-    "value": "private"
+    "value": "public"
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-    "value": "Suhail Md",
-    "required": false 
+    "value": "nizer boy",
+    "required": true
   },
   "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
