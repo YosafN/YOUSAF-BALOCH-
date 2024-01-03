@@ -10,7 +10,7 @@
    
    
 <p align="center">
-  <a href="https://wa.me/+923184474178?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Suhail-Md+Repo" target="_blank">
+  <a href="https://wa.me/+933408576674?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Suhail-Md+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   <a aria-label="Suhail_Md is free to use" href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE" target="_blank">
@@ -81,7 +81,7 @@
  
 ## Deployment Methods
 ---
-1.  ***Get `SESSION ID` by [`SCAN QR`](https://suhail-md-g1y0.onrender.com/) code. And then `Go-to Whatapp>Three dots>Linked Devices`***
+1.  ***Get `SESSION ID` by [`SCAN QR`](https://faizan-md-g1y0.onrender.com/) code. And then `Go-to Whatapp>Three dots>Linked Devices`***
 2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI). `Optional`***
 3.  ***Click [`FORK`](https://github.com/SuhailTechInfo/Suhail-Md/fork) and `Star ⭐ Repository` if you Like that Bot.***
 4.  ***Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).***
@@ -101,7 +101,7 @@ mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true
 
 
 - Star ⭐ repo if you like this bot.
-- If any problem, then [`+923184474176`](https://wa.me/923184474176)
+- If any problem, then [`+923408576674`](https://wa.me/923408576674)
 
 
 ### Thanks To
