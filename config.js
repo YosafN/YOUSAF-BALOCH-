@@ -16,16 +16,16 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-g1y0.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.github=process.env.GITHUB|| "https://chat.whatsapp.com/GQU9inx3dgtBzoJKELmkSQ";
+global.gurl = process.env.GURL  || "https://chat.whatsapp.com/GQU9inx3dgtBzoJKELmkSQ";
+global.website =process.env.GURL|| "https://chat.whatsapp.com/GQU9inx3dgtBzoJKELmkSQ" ; 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/IMG-20240106-WA0295.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923184474176";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,+963953365082";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "+963953365082";
 
 module.exports = {
 
@@ -39,11 +39,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "𝑉𝐼𝑂𝐿𝐴 𝐵𝑂𝑇-🍷",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
-
+  botname : process.env.BOT_NAME  || "𝑉𝐼𝑂𝐿𝐴 𝐵𝑂𝑇-🍷",
+  ownername:process.env.OWNER_NAME|| "+963953365082
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
