@@ -8,24 +8,24 @@ global.video= "" ;
 global.devs = "923184474176"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
+global.email="letstalk2mishael@gmail.com"
+global.location="Nigeria,Abuja"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-g1y0.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029VaI3OXiF6smuq5LxxN15";
+global.website =process.env.GURL|| "https://whatsapp.com/channel/0029VaI3OXiF6smuq5LxxN15" ; 
 global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923184474176";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348142656848";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "23481421656848";
 
 module.exports = {
 
@@ -36,13 +36,13 @@ module.exports = {
   HANDLERS:process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7",
-  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption:process.env.CAPTION || " // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ EMPIRE-DIGITALS-ᴍᴅ 』```",
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author: process.env.PACK_AUTHER || "Mishael-MD",
+  packname: process.env.PACK_NAME || "♥️Mishael",
+  botname : process.env.BOT_NAME  || "Mishael-ᴍᴅ",
+  ownername:process.env.OWNER_NAME|| "It'x Mishael",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -55,12 +55,12 @@ module.exports = {
   KOYEB_API: process.env.KOYEB_API  || "false",
 readmessage:process.env.READ_MESSAGE|| "false",
  aitts_Voice_Id:process.env.AITTS_ID|| "37",
- alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+ alwaysonline:process.env.WAPRESENCE|| "available", // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
  
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "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",
+  read_status: process.env.AUTO_READ_STATUS || "true",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
