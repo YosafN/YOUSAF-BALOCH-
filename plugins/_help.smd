@@ -1,17 +1,11 @@
 /**
-
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //                                                                                                      //
-//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
+//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                     //
 //                                                                                                      // 
-//                                         Ｖ：１．０．１                                                // 
+//                                         Ｖ：１．０．１                                                 // 
 //                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                                           A 9 7 M D                                                  //
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -19,16 +13,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : A97-MD
+   * @author : BAS!L
+   * @wame : wa.me/919446238904
+   * @description : A97-MD ,A Multi-functional whatsapp user bot.
    * @version 1.2.7
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By BAS!L.
+   * © 2025 A97-MD.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -37,6 +31,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
    * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
    * SOFTWARE.
+
 
  ⛥
   //┌┤\n`
@@ -55,7 +50,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
   const axios = require('axios')
   const fetch = require("node-fetch");
   const util = require("util");
-  const events = sᴜʜᴀɪʟ_ᴍᴅ;
+  const events = A97-MD;
   const { commands } = require('../lib');
   const { exec } = require("child_process")
   const translatte = require("translatte");
