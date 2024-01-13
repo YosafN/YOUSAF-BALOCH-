@@ -19,7 +19,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "wa.me/919446238904";
 global.gurl = process.env.GURL  || "wa.me/919446238904";
 global.website =process.env.GURL|| "wa.me/919446238904" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/fbea272503cb44023d4a3.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -39,7 +39,7 @@ module.exports = {
   caption:process.env.CAPTION || "©BAS!L" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀsɪʟ  』```", //*『 ᴍᴇꜱꜱᴀɢᴇ • ʙᴀsɪʟ  』*\n wa.me/919446238904"),
 
  
-  author: process.env.PACK_AUTHER || "LyFE",
+  author: process.env.PACK_AUTHER || "A97-MD",
   packname: process.env.PACK_NAME || "xd",
   botname : process.env.BOT_NAME  || "A97",
   ownername:process.env.OWNER_NAME|| "BAS!L",
