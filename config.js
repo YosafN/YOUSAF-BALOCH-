@@ -14,8 +14,8 @@ global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
-global.scan = "https://suhail-md-g1y0.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.scan = "https://suhail-md-vtsf.onrender.com/";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029VaI3OXiF6smuq5LxxN15";
 global.website =process.env.GURL|| "https://https://whatsapp.com/channel/0029VaI3OXiF6smuq5LxxN15" ; 
@@ -24,8 +24,9 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "" ; // SET LOGO FOR IMAGE
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2348142656848";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "23481426568486";
+
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
 
 module.exports = {
 
