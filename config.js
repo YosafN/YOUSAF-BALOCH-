@@ -39,7 +39,7 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || DARK-Z HACKING",
+  author: process.env.PACK_AUTHER || "DARK-Z HACKING",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "DARK-Z HACKING",
   ownername:process.env.OWNER_NAME|| "DARK-Z HACKING",
