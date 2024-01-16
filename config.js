@@ -19,13 +19,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/TheHonoredones/Suhail-Md";
 global.gurl = process.env.GURL  || "https://chat.whatsapp.com/KHsXz1u7plA9EfWUquYtlc";
 global.website =process.env.GURL|| "https://chat.whatsapp.com/KHsXz1u7plA9EfWUquYtlc" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://i.imgur.com/89WiVwN.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "" ; // SET LOGO FOR IMAGE 
 
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923184474176";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349035391852";
 
 module.exports = {
 
@@ -36,13 +36,13 @@ module.exports = {
   HANDLERS:process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7",
-  caption:process.env.CAPTION || "TheHonoredone©" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption:process.env.CAPTION || "*_TheMostHonoredBot_*" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
   author: process.env.PACK_AUTHER || "Timothy",
   packname: process.env.PACK_NAME || "Timothy",
-  botname : process.env.BOT_NAME  || "TheMostHonoredBot",
-  ownername:process.env.OWNER_NAME|| "TheHonoredone",
+  botname : process.env.BOT_NAME  || "*_TheMostHonoredBot_*",
+  ownername:process.env.OWNER_NAME|| "_*TheHonoredOne_*",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
