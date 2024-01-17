@@ -1,5 +1,5 @@
 {
-   "name": "suhail-md",
+   "name": "racheal",
    "version": "1.2.7",
    "description": "Multi device whatsapp bot by SuhailTechInfo.",
    "main": "lib/client.js",
@@ -8,7 +8,7 @@
              "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
              "stop": "pm2 stop Suhail"
    },
-   "author": "SuhailTechInfo",
+   "author": "racheal",
  
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
