@@ -25,7 +25,7 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544f
 
 
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "919932678869";
 
 module.exports = {
 
@@ -33,16 +33,16 @@ module.exports = {
   style:process.env.STYLE|| "2",  // put '1' & "2" here to check bot styles
 
 
-  HANDLERS:process.env.PREFIX || ".",
+  HANDLERS:process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7",
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
   author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  packname: process.env.PACK_NAME || "NB-KENICHI",
+  botname : process.env.BOT_NAME  || "APURBO-MD",
+  ownername:process.env.OWNER_NAME|| "It'x KENICHI",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
