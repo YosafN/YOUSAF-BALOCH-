@@ -39,10 +39,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "Kalicho-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x Kalicho",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
