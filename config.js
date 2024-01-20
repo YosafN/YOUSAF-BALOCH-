@@ -8,8 +8,8 @@ global.video= "" ;
 global.devs = "923184474176"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
+global.email="patrasreejan49@gmail.com"
+global.location="Kolkata"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -17,15 +17,15 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl = process.env.GURL  || "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸";
+global.website =process.env.GURL|| "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸" ; 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://i.imgur.com/tJN0Lvp.jpeg" ; // SET LOGO FOR IMAGE 
 
 
 
 
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "919932678869";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917439382677";
 
 module.exports = {
 
@@ -36,13 +36,13 @@ module.exports = {
   HANDLERS:process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7",
-  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n SreejanEditx"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "NB-KENICHI",
-  botname : process.env.BOT_NAME  || "APURBO-MD",
-  ownername:process.env.OWNER_NAME|| "It'x KENICHI",
+  author: process.env.PACK_AUTHER || "𝚯𝐘𝐘 | 𝐒𝚪𝚵𝚵𝐉𝚫𝚴",
+  packname: process.env.PACK_NAME || "𝚯𝐘𝐘 | 𝐒𝚪𝚵𝚵𝐉𝚫𝚴",
+  botname : process.env.BOT_NAME  || "𝚯𝐘𝐘 | 𝐒𝚪𝚵𝚵𝐉𝚫𝚴",
+  ownername:process.env.OWNER_NAME|| "𝚯𝐘𝐘 | 𝐒𝚪𝚵𝚵𝐉𝚫𝚴",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -72,7 +72,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SREEJAN",
 
 };
 
