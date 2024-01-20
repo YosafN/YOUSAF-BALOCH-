@@ -5,7 +5,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923184474176"
+global.devs = "917439382677"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="patrasreejan49@gmail.com"
@@ -15,7 +15,7 @@ global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "India/kolkata";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸";
 global.website =process.env.GURL|| "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸" ; 
@@ -24,7 +24,7 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://i.imgur.com/tJN0Lvp.jpeg" 
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "917439382677";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917439382677";
 
 module.exports = {
