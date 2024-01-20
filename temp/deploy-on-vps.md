@@ -38,9 +38,9 @@
       copy paste lines below.
 
       ```
-      OWNER_NUMBER="923184474176"
+      OWNER_NUMBER="923256812213"
       SESSION_ID = "SESSION_85_23_59_01_kjgfgfclhj"
-      THUMB_IMAGE = "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      THUMB_IMAGE = "https://telegra.ph/file/b57895d9b8fe06ee40994.jpg"
       OWNER_NAME = "Suhail"
       PREFIX = .
       WARN_COUNT = 3
