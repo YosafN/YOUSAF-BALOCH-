@@ -33,7 +33,7 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 global.devs = "923184474176" // Developer Conatact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "918194836388";
 
 module.exports = {
 
@@ -47,10 +47,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
+  author: process.env.PACK_AUTHER || "🪽",
+  packname: process.env.PACK_NAME || "♥️𝙺𝙰𝚁𝙰𝙼",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "𝙺𝙰𝚁𝙰𝙼",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
