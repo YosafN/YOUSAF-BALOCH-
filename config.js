@@ -50,7 +50,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "𝑇𝛨𝛯 𝐷𝑈𝛫𝛯",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -68,7 +68,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
  
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
+  read_status: process.env.AUTO_READ_STATUS || "true",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
