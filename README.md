@@ -1,5 +1,5 @@
- <h1 align="center"> Suhail Md </h1> 
-<p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
+ <h1 align="center"> Keilab Md </h1> 
+<p align="center"> Introducing Keilab_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 <p align="center">
   <a href="https://youtube.com/@suhailtechinfo">
@@ -10,25 +10,25 @@
    
    
 <p align="center">
-  <a href="https://wa.me/+923184474178?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Suhail-Md+Repo" target="_blank">
+  <a href="https://wa.me/+254720736160?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Keilab-Md+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-  <a aria-label="Suhail_Md is free to use" href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE" target="_blank">
+  <a aria-label="Keilab_Md is free to use" href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE" target="_blank">
     <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
   </a>
-  <a aria-label="Suhail_Md is free to use" href="https://youtube.com/@suhailtechinfo" target="_blank">
-    <img alt="SuhailTechInfo Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
+  <a aria-label="Keilab_Md is free to use" href="https://youtube.com/@suhailtechinfo" target="_blank">
+    <img alt="KeilabTechInfo Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{SuhailTechInfo}/count.svg" alt="SuhailTechInfo :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{KeilabTechInfo}/count.svg" alt="SuhailTechInfo :: Visitor's Count" /></p>
 
 ---
 
 
 
 
-<p align="center"> Suhail MD whatsapp bot uses
+<p align="center"> Keilab MD whatsapp bot uses
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
 <p align="center">
@@ -38,7 +38,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/SuhailTechInfo/Suhail-Md"><b>Suhail-Md</b></a> Support Deploy On...
+  <a href="https://github.com/DevelopernyamsTechInfo/Suhail-Md"><b>Suhail-Md</b></a> Support Deploy On...
 </p>
 
 <p align="center">
@@ -96,14 +96,14 @@
 
 
 - Star ⭐ repo if you like this bot.
-- If any problem, then [`+923184474176`](https://wa.me/923184474176)
+- If any problem, then [`+254720736160`](https://wa.me/254720736160)
 
 
 ### Thanks To
-- [Sam Pamday](https://github.com/Sampandey001) 
+- [Keilab Nyams](https://github.com/Sampandey001) 
 
 
-The Suhail_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
+The Keilab_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
 
 
 <h2 align="center">  NOTICE
