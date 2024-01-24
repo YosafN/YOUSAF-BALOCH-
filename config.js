@@ -18,7 +18,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "AFRICA/NIGERIA";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/746d9248332e73ca11ff9.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/ae9ef3b09099832ad693b.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -26,7 +26,7 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/746d924833
 
 global.disablepm = process.env.DISABLE_PM || "false",
 global.userImages = process.env.USER_IMAGES|| "https://telegra.ph/file/33ccc7fb8a73c71f7450d.jpg",
-global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot styles
+global.style = process.env.STYLE || "4",  // put '1' to "5" here to check bot styles
 
 
 
@@ -56,7 +56,7 @@ module.exports = {
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
   warncount: process.env.WARN_COUNT || 5,
-  //userImages:process.env.USER_IMAGES|| "https://telegra.ph/file/3b3f7f663f95ef3681cdb.mp4",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
+  //userImages:process.env.USER_IMAGES|| "https://telegra.ph/file/ae9ef3b09099832ad693b.jpg",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   readcmds:process.env.READ_COMMANDS|| "false", 
