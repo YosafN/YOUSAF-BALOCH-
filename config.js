@@ -55,7 +55,7 @@ module.exports = {
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
-  warncount: process.env.WARN_COUNT || 5,
+  warncount: process.env.WARN_COUNT || 7,
   //userImages:process.env.USER_IMAGES|| "https://telegra.ph/file/ae9ef3b09099832ad693b.jpg",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
