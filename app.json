@@ -1,7 +1,7 @@
 {
-  "name": "suhail-md",
-  "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "name": "king",
+  "https://www.pinterest.com/pin/586945763966287797/": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
+  "logo": ".jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Tech Info",
+      "value": "king",
       "required" :true
     },   
     "HEROKU_API_KEY": {
@@ -30,7 +30,7 @@
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
       "required" :false,
-      "value": "true"
+      "value": "false"
     }, 
     "MSGS_IN_LOG": {
       "description": "Fill the value true if you want to see Messages in Console.",
@@ -53,7 +53,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "2349132681483"
     },
     "SESSION_ID": {
       "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot",
