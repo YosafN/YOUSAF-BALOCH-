@@ -7,55 +7,55 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
-global.mongodb= process.env.MONGODB_URI || ""
+global.email="kingmcross090@gmail.com"
+global.location="Otta,ogun_state,Nigeria"
+global.mongodb= process.env.MONGODB_URI || "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"
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl = process.env.GURL  || "https://chat.whatsapp.com/DMQKcH6oMDA39YUpoC01K4";
+global.website =process.env.GURL|| "https://chat.whatsapp.com/DMQKcH6oMDA39YUpoC01K4" ; 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/ae9ef3b09099832ad693b.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 
 
 global.disablepm = process.env.DISABLE_PM || "false",
-global.userImages = process.env.USER_IMAGES|| "text",
+global.userImages = process.env.USER_IMAGES|| "https://telegra.ph/file/ae9ef3b09099832ad693b.jpg",
 global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot styles
 
 
 
 
-global.devs = "923184474176" // Developer Conatact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.devs = "2349042566473" // Developer Conatact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349042566473";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349042566473";
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: M-cross-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   //style:process.env.STYLE|| "2",  // put '1' & "2" here to check bot styles
 
 
-  HANDLERS:process.env.PREFIX || ".",
+  HANDLERS:process.env.PREFIX || "✅",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7-qr",
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "M-CROSS-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "ᴍ-ᴄʀᴏss-ᴍᴅ",
+  ownername:process.env.OWNER_NAME|| "ᴋɪɴɢ ᴍ-ᴄʀᴏss",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
-  warncount: process.env.WARN_COUNT || 3,
+  warncount: process.env.WARN_COUNT || 5,
   //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
@@ -72,7 +72,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "2cf478e1-47aa-4cca-bb6a-3c26332a13fa",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
@@ -80,7 +80,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "LUFFY",
 
 };
 
