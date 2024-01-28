@@ -11,14 +11,14 @@ global.email="samsamsun789@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
-global.allowJids= process.env.ALLOW_JID || "null" 
+global.allowJids= process.env.ALLOW_JID || "true" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl = process.env.GURL  || "https://";
+global.website =process.env.GURL|| "https://" ; 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/47021281f662ccfa20faf.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -47,10 +47,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "*𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x *𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
