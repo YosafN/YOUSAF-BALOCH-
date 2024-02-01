@@ -24,7 +24,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349035263268";
 
 
 
@@ -43,14 +43,14 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
-global.readmessage = process.env.READ_MESSAGE || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
+global.readmessage = process.env.READ_MESSAGE || "true"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
 
@@ -67,10 +67,10 @@ module.exports = {
  
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
+  botname : process.env.BOT_NAME  || "christ light",
   ownername:process.env.OWNER_NAME|| "It'x Suhail",
 
-  sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
+  sessionName:process.env.SESSION_ID|| "SUHAIL_14_29_02_01_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiTUx1YmkyaDBjTkM2KzI4ZUtsdDBoQnhVNmRZb1ltVnBMbkhaR2pveGxGVT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInh6VEJzYnBXZkdTZERzc04zaUVPN3Q4M24yOXNEZkFybEVxanlEUlAzR1E9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiNk9Sd3htc0VuQ2dvWEhVdjdMTi9oQnFvUmpuQ3FoRmE3NDBZMGtNYU9tWT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInFJM0lkWnRTemlUbzRUOUlZL2h5alJCbDdZOVpWUS9WYmRsNDlsSDk3VTg9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiUUpSVkRDNzBuc2xVMkMzOFNJcHhwWFZOaXpHdkpBTWFLbm9SaGZGbSswZz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjhzaWlvQmlqd2RPOGZSOTlReEg1Mk1IVXQvS2swOHRidGk1c3lib3dlbjQ9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCIwUGp1MGcrbW5UaWlBNHEyTGorNnlYc2V2RmYyS1lQNndKTGtHV1MyMlhZPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiWGdhQ01nc0tmZGlsLzNSYjBGczR2cDJaMWxUYmxVODE1VUdyYTY1T3JWbz1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJ6M3diZlhMT3RvK1pkWXFCNmRZR1FWOGE3RVYrZDEvcDkvc1hqdm5ML3RvOHVHTGRLVlFkYW1tOTRKRTJGVzFvZlFQZ09lRDRzMzA2ZTk1YlpBT1BqUT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjM2LFwiYWR2U2VjcmV0S2V5XCI6XCI4ZTZWMXBxZFdTQ1RHVndqd1BXaGhjSzl1SzlHdmhiVUNpYmZ2RkptVXJNPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjM0OTAzNTI2MzI2OEBzLndoYXRzYXBwLm5ldFwiLFwiZnJvbU1lXCI6dHJ1ZSxcImlkXCI6XCI3MkFBQ0IzREJDREI1RjQyNEQ2MzNCRDc3MjBGODRDRFwifSxcIm1lc3NhZ2VUaW1lc3RhbXBcIjoxNzA2Nzk3Nzc3fV0sXCJuZXh0UHJlS2V5SWRcIjozMSxcImZpcnN0VW51cGxvYWRlZFByZUtleUlkXCI6MzEsXCJhY2NvdW50U3luY0NvdW50ZXJcIjowLFwiYWNjb3VudFNldHRpbmdzXCI6e1widW5hcmNoaXZlQ2hhdHNcIjpmYWxzZX0sXCJkZXZpY2VJZFwiOlwiS3pEejRXb3FTMkdYR1RlSHBWZ1V2QVwiLFwicGhvbmVJZFwiOlwiZDU2MzE3OTItYzY2ZS00MmY4LWI0N2QtYjZjYjJhYjEzMmNmXCIsXCJpZGVudGl0eUlkXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJMMGw2ZEdCbkJ4a1JqT2hVT0VwWlFLRHowdE09XCJ9LFwicmVnaXN0ZXJlZFwiOmZhbHNlLFwiYmFja3VwVG9rZW5cIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIis3YXkyNnFEa0cyMG1BcDBuMGpxa0dQNEh4ND1cIn0sXCJyZWdpc3RyYXRpb25cIjp7fSxcImFjY291bnRcIjp7XCJkZXRhaWxzXCI6XCJDSnZNNk1RQ0VNWFY3cTBHR0FFZ0FDZ0FcIixcImFjY291bnRTaWduYXR1cmVLZXlcIjpcIi8vazJLRldUZkY4cVlOZmVWSmdqajNvRlpoaDBmMGtEZTFpUS9zZlhBaDA9XCIsXCJhY2NvdW50U2lnbmF0dXJlXCI6XCJDb2dYR3A3ejBVRERRVmJtUFdzbDZsZFBmLzE0MFlsUUppMlp5QWIyYUgwM2hkVE8xb2tCamxNemNidUkvRDkxZWpMUDVKc3NCeU1pK3JpSTQyWGZDQT09XCIsXCJkZXZpY2VTaWduYXR1cmVcIjpcIkY5dEJDdXJUODB5Zm1vRnVpS0dVamtraFVQTWZrU1c4MUp3dFVudUpqT2N1bGxxSTNQTFBHR01aZm9JV0RBRllXcFVtb1lZcUxwNUpYYmF5RFYwdGh3PT1cIn0sXCJtZVwiOntcImlkXCI6XCIyMzQ5MDM1MjYzMjY4OjlAcy53aGF0c2FwcC5uZXRcIixcIm5hbWVcIjpcIkxpZ2h0IENocmlzXCIsXCJsaWRcIjpcIjI0OTcxMzg3ODEzODkwMTo5QGxpZFwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjIzNDkwMzUyNjMyNjg6OUBzLndoYXRzYXBwLm5ldFwiLFwiZGV2aWNlSWRcIjowfSxcImlkZW50aWZpZXJLZXlcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkJmLzVOaWhWazN4ZkttRFgzbFNZSTQ5NkJXWVlkSDlKQTN0WWtQN0gxd0lkXCJ9fV0sXCJwbGF0Zm9ybVwiOlwic21iYVwiLFwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wXCI6MTcwNjc5Nzc2OX0iCn0=",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API  || "false",
 
@@ -131,6 +131,6 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   //readcmds:process.env.READ_COMMANDS|| "false", 
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
-  //read_status: process.env.AUTO_READ_STATUS || "false",
-  //save_status: process.env.AUTO_SAVE_STATUS || "false",
+  //read_status: process.env.AUTO_READ_STATUS || "true",
+  //save_status: process.env.AUTO_SAVE_STATUS || "true",
  
