@@ -31,9 +31,9 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 
 
-global.devs = "923184474176" // Developer Conatact
+global.devs = "2348067146206" // Developer Conatact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348067146206";
 
 module.exports = {
 
@@ -47,10 +47,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
+  author: process.env.PACK_AUTHER || "Wilson-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x Wilson",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -72,7 +72,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "44e300e7-61bc-4557-a872-af4bc4d34a7f",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
@@ -80,7 +80,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "WILSONMD",
 
 };
 
