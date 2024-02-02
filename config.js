@@ -17,8 +17,8 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "India/kolkata";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸";
-global.website =process.env.GURL|| "https://Wa.me/+917439382677📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸" ; 
+global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
+global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643📲by/?text=HY_𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴🐼🌸" ; 
 global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://i.imgur.com/tJN0Lvp.jpeg" ; // SET LOGO FOR IMAGE 
 
 
