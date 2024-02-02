@@ -36,7 +36,7 @@ module.exports = {
   HANDLERS:process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7",
-  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n SreejanEditx"),
+  caption:process.env.CAPTION || "SREEJAN" , // ```『 SYCO-L 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n SreejanEditx"),
 
  
   author: process.env.PACK_AUTHER || "𝚯𝐘𝐘 | 𝐒𝚪𝚵𝚵𝐉𝚫𝚴",
