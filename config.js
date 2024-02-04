@@ -72,7 +72,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "44e300e7-61bc-4557-a872-af4bc4d34a7f",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
