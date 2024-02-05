@@ -1,7 +1,7 @@
 {
-   "name": "suhail-md",
+   "name": "ARMAN MD X SHEHROZ",
    "version": "1.2.8-api",
-   "description": "Multi device whatsapp bot by SuhailTechInfo.",
+   "description": "Multi device whatsapp bot by ARMAN .",
    "main": "lib/client.js",
    "type": "commonjs",
    "engines" : { "node": "v18.16.0", "npm": "9.5.1" },
@@ -9,8 +9,8 @@
              "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
              "stop": "pm2 stop Suhail"             
    },
-   "keywords": ["whatsapp bot md","whatsapp bot","sc bot","sc wa bot","suhail md","suhail whatsapp bot","Suhail md bot","multidevice","baileys bot"],
-   "author": "SuhailTechInfo",
+   "keywords": ["whatsapp bot md","whatsapp bot","sc bot","AR wa bot","ARMAN md","ARMAN whatsapp bot","ARMAN  MDD bot","multidevice","baileys bot"],
+   "author": "ARMAN ",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
