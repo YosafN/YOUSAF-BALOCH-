@@ -31,8 +31,8 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 
 
-global.devs = "994401403204" // Developer Conatact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
+global.devs = "971557649104" // Developer Conatact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "+971557649104";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "971557649104";
 
 module.exports = {
@@ -48,8 +48,8 @@ module.exports = {
 
  
   author: process.env.PACK_AUTHER || "*𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
+  packname: process.env.PACK_NAME || "*𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
+  botname : process.env.BOT_NAME  || "*𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
   ownername:process.env.OWNER_NAME|| "It'x *𓈸 𓅋⃟ 🅼︎🅡︎᭄𝐊ɪɴɢ𝄟 ≛⃝*",
 
 
