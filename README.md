@@ -10,7 +10,7 @@
    
    
 <p align="center">
-  <a href="https://wa.me/+923184474178?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Suhail-Md+Repo" target="_blank">
+  <a href="https://wa.me/+923153637458?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Suhail-Md+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   <a aria-label="Suhail_Md is free to use" href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE" target="_blank">
@@ -48,7 +48,7 @@
 <p align="center">
   <a href="https://suhail-web01.vercel.app/deploy.html"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://suhail-web01.vercel.app/replit.html"><img src="https://img.shields.io/badge/replit-253c99?style=for-the-badge&logo=replit&logoColor=F26207"></a>
-  <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/SuhailTechInfo/Suhail-Md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=923184474176&env[MONGODB_URI]&&env[OWNER_NAME]=Suhail&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=false&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Suhail+MD&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=SUHAIL&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Asia/Karachi&name=suhail-md&env[KOYEB_NAME]=suhail-md&env[SUDO]=null&env[THUMB_IMAGE]=https://i.imgur.com/NpA3ZsJ.jpeg"><img src="https://img.shields.io/badge/koyeb-033604?style=for-the-badge&logo=koyeb&logoColor=white"></a>
+  <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/SuhailTechInfo/Suhail-Md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=923163298247&env[MONGODB_URI]&&env[OWNER_NAME]=SATTAR-BOT&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=false&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Suhail+MD&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=Sattar&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Asia/Karachi&name=suhail-md&env[KOYEB_NAME]=suhail-md&env[SUDO]=null&env[THUMB_IMAGE]=https://i.imgur.com/NpA3ZsJ.jpeg"><img src="https://img.shields.io/badge/koyeb-033604?style=for-the-badge&logo=koyeb&logoColor=white"></a>
 </p>
 <p align="center">
   <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
@@ -96,21 +96,21 @@
 
 
 - Star ⭐ repo if you like this bot.
-- If any problem, then [`+923184474176`](https://wa.me/923184474176)
+- If any problem, then [`+923163298247`](https://wa.me/923163298247)
 
 
 ### Thanks To
 - [Sam Pamday](https://github.com/Sampandey001) 
 
 
-The Suhail_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
+The SATTAR_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
 
 
 <h2 align="center">  NOTICE
 </h2>
    
 ## 
-- *Suhail-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *SATTAR-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
 - *Use Suhail-Md at your own risk by keeping this warning in mind.*
 - [`heroku`]( https://dashboard.heroku.com/new?template=https://github.com/SuhailTechInfo/Suhail-Md)
