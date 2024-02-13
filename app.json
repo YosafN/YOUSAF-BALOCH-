@@ -9,30 +9,30 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "øluwa tee",
       "required" :true
     },   
      
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
-      "required" :false
+      "value": "welcome we are glad to have you here",
+      "required" :true
     },
      
     "GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-      "value": "false",
-      "required" :false
+      "value": "bye 👋",
+      "required" :true
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
-      "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "required" :true,    
+      "value": "øluwa téé"
     }, 
     "IMAGE": {
       "description": "Image for bot",
-      "required" :false,    
-      "value": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      "required" :true,    
+      "value": "https://telegra.ph/file/561489972367f0b48d833.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -46,7 +46,7 @@
     }, 
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
-      "required" :false,    
+      "required" :true,    
       "value": "3"
     }, 
     "READ_COMMAND": {
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "07014921337"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
