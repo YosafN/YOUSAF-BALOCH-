@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
-    "AUTHOR": "Suhail",
-    "theme": "Suhail-Md",
+    "AUTHOR": "Husnain",
+    "theme": "HR-Md",
     "LANGUAGE": "English",
     "LANGCODE": "en", 
     "STRINGS": { 
@@ -11,9 +11,9 @@
             "UPDATED_LOCAL": "*Successfully Updated!*"
         },  
         "global": {      
-            "botName": "Suhail-Md",
+            "botName": "HR-Md",
             "body": "whatsapp User Bot", 
-            "greet2" : "Thanks To Suhail Ser",
+            "greet2" : "Thanks To HR Ser",
             "pic1": "https://telegra.ph/file/ec9bc5038601821f2eb84.jpg", 
             "pic2": "https://telegra.ph/file/bc21f6f60bd1e3805f2a3.jpg", 
             "pic3": "https://telegra.ph/file/3d64d515e218df059601c.jpg", 
