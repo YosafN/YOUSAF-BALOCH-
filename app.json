@@ -1,14 +1,14 @@
 {
-  "name": "suhail-md",
+  "name": "LINCOLN-md",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "keywords": ["whatsapbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
   
   "env": {
     "OWNER_NAME": {
-      "description": "Name of Bot Owner",    
+      "description": "LINCOLN",    
       "value": "Suhail Ser",
       "required" :true
     },   
@@ -26,8 +26,8 @@
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
-      "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "required" :true,    
+      "value": "LIN-COLN"
     }, 
     "IMAGE": {
       "description": "Image for bot",
@@ -37,11 +37,11 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "AFRICA/KENYA"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
-      "required" :false,    
+      "required" :true,    
       "value": "true"
     }, 
     "WARN_COUNT": {
@@ -71,12 +71,12 @@
     }, 
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required" :false,
+      "required" :true ,
       "value": "unavailable"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required" :false,
+      "required" :true,
       "value": "true"
     }, 
     "MSGS_IN_LOG": {
@@ -100,10 +100,10 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "254716366164"
     },
     "SESSION_ID": {
-      "description": "put your SESSION_ID here.",
+      "description": "SUHAIL_12_42_02_17_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiaU0yc29KSnVKbU8wNTI2MmZ5NXZsdzliTVBBZEpjY1R3VlVsSnpKeXNVdz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlBaNzdHSVN2dnpxazdPTXBUcFlyY2R3d0hHOTVPYlhkcHhnSFQ3bjc3QUk9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwid05jUnFkNGlLZGpyV2tRYXlBaVFhMUJTN1JJYXJ0SUtmUzU2bXN1RDZXbz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlJGS25oR1JyYmlsNEgzVFZBbS9qQkliMU9RNWUyUlh3b1VtbUxZbEIxUms9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiNk54aFhiUGJZRURMQlpLb2s1TkRHMlFrMU44SGdEMHVuclpOR3k3eURGWT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkhDWGNrSXViTDUxdDZkZlVUdytIODkzRXQyYm1yZU9PZUx2SXgvdnoraTA9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJNRXFBWm1zT002VkE5YVphSHRNMVhjbTd4d0pUbEl0OWN1MnNnVy9rY0hZPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQmpqZU43UDVUMi9TZDY4UWdoejRpSlRrejRKTm9uUk1OUExpc0k1dlpCUT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJIVFROMHdBTDc2UUQ4UFNmdXVRdS90SXNUN01KNDVlaXVTc3FoNjVDVjQyNVJaRkdqaC9WZy8rVzFBYjFyTHYzZ3p0M1hxbFpNQXB4UDdhUUdSNktpZz09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MTI4LFwiYWR2U2VjcmV0S2V5XCI6XCJuZjlzWnNlYnZkTU5CWnZxVEltUllnbGJ5Y1hRc20yYk9pMWkrNFczbHRJPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjU0NzE2MzY2MTY0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjM5QzUzQzA1NkEzOEMyOUQxOTFCMjg1QzBEMEM0QTJCXCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MDgxNzM3NTV9LHtcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjU0NzE2MzY2MTY0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjI2M0NBMjVGMjI3MTI4NDU1RThFNjVCOEVGODgxNzFDXCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MDgxNzM3NTV9XSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjEsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCIzTzNlYlNZY1FieW5QVTI1S0J6aHpRXCIsXCJwaG9uZUlkXCI6XCIyZWI2MzMxZS1kNjUxLTQ2NTQtYTNkZC05MTM3ZTg4ZTViZjdcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjN1Z1d1eU95aUdLNlJKSUhIUG9JYmEvejc0ST1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJnbTF0SGtKWTNlVVdWVThqaDN6eHlQM3dSTGs9XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiQ1pONjVRQVhcIixcIm1lXCI6e1wiaWRcIjpcIjI1NDcxNjM2NjE2NDoyQHMud2hhdHNhcHAubmV0XCIsXCJsaWRcIjpcIjU3ODg3OTA0NzkyNzY2OjJAbGlkXCIsXCJuYW1lXCI6XCJMaW5jb2xu8J+YgVwifSxcImFjY291bnRcIjp7XCJkZXRhaWxzXCI6XCJDTnZsOFAwQ0VMVFR3cTRHR0FJPVwiLFwiYWNjb3VudFNpZ25hdHVyZUtleVwiOlwibjJYbFJOY0pQUXhLWXFjbUUyL3AwWjFGdGlmYXIvMW55Q0FMVFhiamF3Zz1cIixcImFjY291bnRTaWduYXR1cmVcIjpcImM0M21KcTRod3pZRERweW4yN3YwcEpoUTduV2VqakxkU2s3eWlJUGZNQVora1p0MGEwT3FpNWpFM3hEaUNYMHdVdTNMaEZOMzdMQm1ERyt4T1lyMUF3PT1cIixcImRldmljZVNpZ25hdHVyZVwiOlwiT3pabGpwN2F2L2YrVlIxYjN4bTNPZ1hkaGJxcngzK3FLbERRbXl1Y3FKWTBsZnZBdnVTcnRXSjZsRW5UelNzOC90ZEJjcGhVZ3lYS1V6cjlGZ0xtZ2c9PVwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjI1NDcxNjM2NjE2NDoyQHMud2hhdHNhcHAubmV0XCIsXCJkZXZpY2VJZFwiOjB9LFwiaWRlbnRpZmllcktleVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQlo5bDVVVFhDVDBNU21LbkpoTnY2ZEdkUmJZbjJxLzlaOGdnQzAxMjQyc0lcIn19XSxcInBsYXRmb3JtXCI6XCJhbmRyb2lkXCIsXCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXBcIjoxNzA4MTczNzUyLFwibXlBcHBTdGF0ZUtleUlkXCI6XCJBQUFBQU9rMlwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQU9rMi5qc29uIjogIntcImtleURhdGFcIjpcIkpzd2NCV2N1eEJkazloM2tzRXJHNlRPWklsWm1PeHJEQWlMcWthZWliMmc9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6ODAwODYyOTM5LFwiY3VycmVudEluZGV4XCI6MSxcImRldmljZUluZGV4ZXNcIjpbMCwxXX0sXCJ0aW1lc3RhbXBcIjpcIjE3MDU3NTk0MjAxMDhcIn0iCn0=",
       "value": ""
   
     },
