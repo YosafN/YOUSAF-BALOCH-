@@ -8,7 +8,7 @@
   
   "env": {
     "OWNER_NAME": {
-      "description": "Name of Bot Owner",    
+      "description": "Nelson",    
       "value": "Suhail Ser",
       "required" :true
     },   
@@ -25,7 +25,7 @@
       "required" :false
     },
     "BOT_NAME": {
-      "description": " NAME FOR BOT",
+      "description": " Nelson",
       "required" :false,    
       "value": "sᴜʜᴀɪʟ-ᴍᴅ"
     }, 
@@ -98,12 +98,12 @@
       "description": "Enter your desired prefix for bot.",
       "value": "."
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": { 
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "value": "923184474176"
     },
     "SESSION_ID": {
-      "description": "put your SESSION_ID here.",
+      "description": "SUHAIL_13_52_02_17_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQ0N5cmdQc0tQbkdnQzVPbEhqekZxaGtoT3JzT0VRQUd5Qjdlbkdvalhtaz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImZEd2ZwOWhEVDdxeTgwYmdCRm9idlZqbDZvZFg3RWp1eXJVRkRuTnd6bTg9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiT0FkendqZWxndS96ams3Rlg5WGRYN2NxKytXU08xZWlFNlJOT0Y1QnhIND1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInpSRlVzMTNaUUp5UWFxK0E2eU11dWhaSW1YbDRuK0xkdHRHdE5pd3RpRlk9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiNEtIS3RPWHRqVFpqS0tpeVE3ck05QnB4WW9nVWpEaU9hb0tWUXIzNDVXQT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInFIVlh1aG1XVXhFR0lsTEtLb1VyQUdKWEhRMUt2WWlHZWVDeFpyQjZwaFE9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJvSW1mQnRraTVIYjFEcTNFWHpRdHplaUhvaWZuVnMyNDd0b0FjNWdTdEdRPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiOHZteXhDdGFuZHBCQXZKVHUxMm5kbStFYWJKZE1XODRnRmpySGI2a01IUT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJpWkJQY2FLcFR6Q2JJSWVCUU9tZmsrSktFa0FqTlIzTlpuclIrTWxBamRsaERrcncxeGZ6K0lpOGR6UVg5NlpNQXpRUHhyVVc4cU1SQ2tZTmlsT2JCdz09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MTIzLFwiYWR2U2VjcmV0S2V5XCI6XCJLUTlPVDR6a3g4SDA1RDRIMCt5ZnRsbCtlT0xvTTQzMlUvTmdaMXMyTC9VPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W10sXCJuZXh0UHJlS2V5SWRcIjozMSxcImZpcnN0VW51cGxvYWRlZFByZUtleUlkXCI6MzEsXCJhY2NvdW50U3luY0NvdW50ZXJcIjowLFwiYWNjb3VudFNldHRpbmdzXCI6e1widW5hcmNoaXZlQ2hhdHNcIjpmYWxzZX0sXCJkZXZpY2VJZFwiOlwiNThBc2JnTVFSZ3F5aUFnblJGOG5vQVwiLFwicGhvbmVJZFwiOlwiN2JjMGYwYTgtNDg5NC00ZDgzLWIwN2QtYTRjYzQ3NTM1ZDg3XCIsXCJpZGVudGl0eUlkXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJWcmtDMTg5WUZDa0RIUDJsMnJnalUzbElWZXM9XCJ9LFwicmVnaXN0ZXJlZFwiOnRydWUsXCJiYWNrdXBUb2tlblwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQTFONXdNMkg5a1FYN3NROVFqSDVqTGRkVXU0PVwifSxcInJlZ2lzdHJhdGlvblwiOnt9LFwicGFpcmluZ0NvZGVcIjpcIlJaUFFSMk5IXCIsXCJtZVwiOntcImlkXCI6XCIyMzQ3MDQxNjc3MTExOjEwQHMud2hhdHNhcHAubmV0XCIsXCJsaWRcIjpcIjIyOTU2MTcwNzAxNjM3MDoxMEBsaWRcIixcIm5hbWVcIjpcIsORw6tsc8O2w7FcIn0sXCJhY2NvdW50XCI6e1wiZGV0YWlsc1wiOlwiQ09tdHlOTUhFSm4wd3E0R0dBSWdBQ2dBXCIsXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6XCJudVNnZXJ6ZFJDdkdDY3VKYUdmNnF6RTI1MHRheTBBVTBsYUdtT0xySVJZPVwiLFwiYWNjb3VudFNpZ25hdHVyZVwiOlwibENzVFZ0czZkZUNKRVFGVlk1N2VKUHkzWDErL1N1U3plaHpKbkFpKzNJUnREdGhPbHM0aGtHaGV2QjU4NzRWOW5tREFmYjlpMnRKOVlVV1U0VHVFQlE9PVwiLFwiZGV2aWNlU2lnbmF0dXJlXCI6XCJXVWtwZkR1cHQxb1ZyUDFJR01qMWwzNlBvNGxjRDdMb1Bvd2o2Ukg0VFBETWYrbWRRMmtyNExNRVk3M2lySUlrY0NHSGpnYzgvTnZNaWFtb01CeG1DZz09XCJ9LFwic2lnbmFsSWRlbnRpdGllc1wiOlt7XCJpZGVudGlmaWVyXCI6e1wibmFtZVwiOlwiMjM0NzA0MTY3NzExMToxMEBzLndoYXRzYXBwLm5ldFwiLFwiZGV2aWNlSWRcIjowfSxcImlkZW50aWZpZXJLZXlcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkJaN2tvSHE4M1VRcnhnbkxpV2huK3FzeE51ZExXc3RBRk5KV2hwamk2eUVXXCJ9fV0sXCJwbGF0Zm9ybVwiOlwiYW5kcm9pZFwiLFwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wXCI6MTcwODE3Nzk1MH0iCn0=",
       "value": ""
   
     },
