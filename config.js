@@ -9,7 +9,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Adobe:<vinei12>@cluster0.h7rjgnm.mongodb.net/?retryWrites=true&w=majority"
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://vacaja:<1234>@cluster0.gh3syzk.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
@@ -84,7 +84,7 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
 
 
