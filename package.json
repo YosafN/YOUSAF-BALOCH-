@@ -1,15 +1,15 @@
 {
-   "name": "suhail-md",
+   "name": "MaXwrld Md",
    "version": "1.2.8-repl",
-   "description": "Multi device whatsapp bot by SuhailTechInfo.",
+   "description": "Multi device whatsapp bot by MaXwrldTechInfo.",
    "main": "lib/client.js",
    "type": "commonjs",
    "engines" : { "node": "v18.16.0", "npm": "9.5.1" },
    "scripts": {
-             "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
-             "stop": "pm2 stop Suhail"             
+             "start": "pm2 start lib/client.js --deep-monitoring --attach --name MaXwrld",
+             "stop": "pm2 stop MaXwrld"             
    },
-   "author": "SuhailTechInfo",
+   "author": "MaXwrldTechInfo",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
