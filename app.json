@@ -1,15 +1,15 @@
 {
-  "name": "suhail-md",
+  "name": "MaXwrld-md",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
-  "success_url": "/suhail/",
+  "keywords": ["whatsappbot", "MaXwrldMd", "MaXwrld Md bot", "MaXwrld-Md", "MaXwrldMdWhatsaooBot", "MaXwrldWaBot","MaXwrldMD","MaXwrld Md Whatsapp Bot","multi device"],
+  "success_url": "/Suhail/",
   "app_url": "/suhail/",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "MaXwrld❤️‍🩹💖Memes",
       "required" :true
     },   
      
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "MaXwrld -Md"
     }, 
     "IMAGE": {
       "description": "Image for bot",
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "254742516017"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -124,11 +124,11 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "MaXwrld Md",
       "required": false 
     },
     "PACK_AUTHER": {
