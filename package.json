@@ -4,8 +4,9 @@
    "description": "Multi device whatsapp bot.",
    "main": "lib/smd.js",
    "scripts": {
-             "start": "pm2 start lib/smd.js --attach --name Suhails",
-             "stop": "pm2 stop Suhails"             
+             "start": "node lib/smd.js",             
+             "stop": "echo \"Error: no test specified\" && exit 1 || pm2 stop Suhail",
+             "heroku-postbuild": "git clone https://github.dev/SuhailTechIMd/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
    "author": "TechInfo",
    "dependencies": { 

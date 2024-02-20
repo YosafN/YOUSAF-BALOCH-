@@ -29,6 +29,17 @@
       "required": false 
     }
   }, 
-  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs.git" }],
-  "stack": "heroku-22"
+  "addons": [
+    {
+      "plan": "heroku-postgresql:basic"
+    }
+  ],
+
+  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
 }
