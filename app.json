@@ -137,5 +137,6 @@
       "required": false 
     }
   }, 
-  "addons": [{ "plan": "heroku-postgresql" }]
+  "addons": [{ "plan": "heroku-postgresql" }],
+  "stack": "container"
 }
