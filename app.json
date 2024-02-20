@@ -1,5 +1,5 @@
 {
-  "name": "suhail-md",
+  "name": "suhail-md@1.2.8-pair",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
@@ -137,19 +137,15 @@
       "required": false 
     }
   }, 
-  "addons": [
-    {
-      "plan": "heroku-postgresql:basic"
-    } 
-  ],
+  "addons": [{ "plan": "heroku-postgresql" }],
   "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs.git" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ],
   "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "standard-2x"
-      }
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
   }
 }
