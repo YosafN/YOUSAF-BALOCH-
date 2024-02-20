@@ -78,7 +78,7 @@ module.exports = {
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "c8935065-5f47-4f90-b3e5-3f04bb934692",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "adobe",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "adobe12",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
