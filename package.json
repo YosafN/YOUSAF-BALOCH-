@@ -6,7 +6,7 @@
    "scripts": {
              "start": "node lib/smd.js",             
              "stop": "echo \"Error: no test specified\" && exit 1 || pm2 stop Suhail",
-             "heroku-postbuild": "git clone https://github.dev/SuhailTechIMd/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
+             "heroku-postbuild": "git clone https://github.dev/SuhailTechIMd/Suhail-Md temp1 && mv temp1/.git .git && rm -rf temp1"
    },
    "author": "TechInfo",
    "dependencies": { 
