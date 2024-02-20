@@ -1,12 +1,11 @@
 {
-   "name": "suhail-md",
+   "name": "suhail-md1",
    "version": "1.2.8",
-   "description": "Multi device whatsapp bot by SuhailTechInfo.",
-   "main": "lib/client.js",
-   "type": "commonjs",  
+   "description": "Multi device whatsapp bot.",
+   "main": "lib/smd.js",
    "scripts": {
-             "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
-             "stop": "pm2 stop Suhail"             
+             "start": "pm2 start lib/smd.js --attach --name Suhails",
+             "stop": "pm2 stop Suhails"             
    },
    "author": "SuhailTechInfo",
    "dependencies": { 
