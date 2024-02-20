@@ -1,8 +1,9 @@
 build:
   docker:
-      worker: /lib/Dockerfile
-run:
-  worker: npm start
- 
+    web: Dockerfile
+    
+  config:
+    NODE_ENV: production
 
-  
+run:
+  web: npm start
