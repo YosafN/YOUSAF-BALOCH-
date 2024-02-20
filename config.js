@@ -24,7 +24,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254114880731";
 
 
 
@@ -68,8 +68,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "sparta",
+  ownername:process.env.OWNER_NAME|| "spartawuz",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
