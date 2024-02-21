@@ -1,8 +1,8 @@
-const fs = require('fs-extra')
+TVconst fs = require('fs-extra')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-//═══════[MaXwrld Md]════════\\
+//═══════[MaXwrld💌❤️‍🩹Md]════════\\
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
@@ -43,7 +43,7 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
@@ -63,7 +63,7 @@ module.exports = {
   HANDLERS : process.env.PREFIX || ".",
   BRANCH : process.env.BRANCH   || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "© MaXwrld md" , // ```『 MaXwrld memes 』```", //*『MaXwrld md• 999』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "©MaXwrld💌❤️‍🩹memes" , // ```『 MaXwrld memes 』```", //*『MaXwrld md• 999』*\n youtube.com/@suhailtechinfo0"),
  
   author: process.env.PACK_AUTHER || "MaXwrld-MD",
   packname: process.env.PACK_NAME || "♥️",
