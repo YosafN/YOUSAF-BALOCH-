@@ -2,10 +2,8 @@
   "name": "suhail-md@1.2.8-pair",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
-  "app_url": "/suhail/",
-  
+
   "env": {
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
@@ -13,7 +11,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176v "
+      "value": "923184474176"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -27,19 +25,6 @@
       "description": "STACK NAME ",
       "value": "container | heroku-22 | 4246315815290786|01|2026|717",
       "required": false 
-    }
-  }, 
-  "addons": [
-    {
-      "plan": "heroku-postgresql:basic"
-    }
-  ],
-
-  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
     }
   }
 }

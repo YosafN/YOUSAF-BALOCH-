@@ -1,12 +1,13 @@
 {
-   "name": "suhail-md1",
+   "name": "suhail-md",
    "version": "1.2.8",
    "description": "Multi device whatsapp bot.",
    "main": "lib/smd.js",
    "scripts": {
-             "start": "node lib/smd.js",             
-             "stop": "echo \"Error: no test specified\" && exit 1 || pm2 stop Suhail",
-             "heroku-postbuild": "git clone https://github.com/SuhailTechIMd/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
+      "start": "pm2 start lib/smd.js --attach --name Suhail",
+      "stop": "pm2 stop Suhail",            
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && mv temp1/.git .git"
    },
    "author": "TechInfo",
    "dependencies": { 
@@ -66,10 +67,6 @@
    },
    "repository": {
              "type": "git",
-             "url": "git+https://github.com/SuhailTechIMd/Suhail-Md.git"
-   },
-   "bugs": {
-             "url": "https://github.com/SuhailTechIMd/Suhail-Md/issues"
-   },
-   "homepage": "https://github.com/SuhailTechIMd/Suhail-Md#readme"
+             "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
+   }
 }
