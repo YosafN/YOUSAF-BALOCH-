@@ -9,7 +9,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.mongodb+srv://xheriffomondi696:2023daisy@cluster0.rubih0k.mongodb.net/ || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
@@ -24,7 +24,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254741206672";
 
 
 
@@ -32,24 +32,24 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
-global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
+global.MsgsInLog = process.env.MSGS_IN_LOG|| "true", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
-global.readmessage = process.env.READ_MESSAGE || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
+global.readmessage = process.env.READ_MESSAGE || "true"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -69,9 +69,9 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x sheriff",
 
-  sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
+  sessionName:process.env.SESSION_ID || "",  // SUHAIL_15_42_02_17_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiVUNzUUFrd1c2M2dhTXhUVWFscE5UQm5OcDVhRHp1V0tYYW1WMEhuWnhYTT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjdNNkpDNnlSUFh6T0ZSTUs1cWlaODlrbzg2L1YvUUliTHIxd2ZZd1NGVkk9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiU0UwV0pFY2xlY3VsaEUvMkQ3MFpDK1hnYUtZZWtuemRFcktwRjdCNGpsUT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInpUM1BuMFd4VHV1RzJPRVRkV3RlOTUzYjFrU0lsYXpwc2d1Q2NoYXA1VkU9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiOEc2TXZjNk83Tk41L0FFU3hNeDloRFJENG5YTkVrb0VDR0ZVdU1LemMyND1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImtqWDdwSk1YYTcyNEdIRGc3VVg4TFNKRnZnQTJEeGx4aUQ2QllaL000bnM9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJ3SGcyTWdDc291all0QnlySUtsU3BvQS9Wak92bkJKVmYrbzkzZkE4NVhZPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwidVpwWlRtdDNER1NTMXN4Zis1cFpkUU5lZVRUVktZU1k1MU9IcjZrZnBtUT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJlaitKVU0waFJUc3JsbzFRanZDOXRPaE9vZWN6WmI4TjRMWWUrV3lZMVNYeDBlcCtzd3NmQXM4c3NkZzVyYzVKT3lMUEFFOWNMQmhrTlJsU2RmTVhodz09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MTcyLFwiYWR2U2VjcmV0S2V5XCI6XCJWQXVTSXEzbzIwVzFMYkY0VERMdDg4cHV5TEpLdUV1Rlo0amg5VnVVeDNRPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W10sXCJuZXh0UHJlS2V5SWRcIjozMSxcImZpcnN0VW51cGxvYWRlZFByZUtleUlkXCI6MzEsXCJhY2NvdW50U3luY0NvdW50ZXJcIjowLFwiYWNjb3VudFNldHRpbmdzXCI6e1widW5hcmNoaXZlQ2hhdHNcIjpmYWxzZX0sXCJkZXZpY2VJZFwiOlwiemNjZ0hISV9Sc3lDX0dMb1B3VkFLQVwiLFwicGhvbmVJZFwiOlwiNWM4ZDk0ZmQtZjhlNi00YjZjLThmMDEtNmUzMjE3ZjY1YTI0XCIsXCJpZGVudGl0eUlkXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJyN2pxdjVoanR4dFBHYlZEVnBnOGVvelFOS1U9XCJ9LFwicmVnaXN0ZXJlZFwiOnRydWUsXCJiYWNrdXBUb2tlblwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwicHZGd1V2WlFzc2pPblZoVmpOeHdRSDFIQklFPVwifSxcInJlZ2lzdHJhdGlvblwiOnt9LFwicGFpcmluZ0NvZGVcIjpcIkI4UVhGWEFXXCIsXCJtZVwiOntcImlkXCI6XCIyNTQ3NDEyMDY2NzI6MTNAcy53aGF0c2FwcC5uZXRcIixcImxpZFwiOlwiMTkwMjAyODYxNTkyNzQ1OjEzQGxpZFwiLFwibmFtZVwiOlwiU0hFUklGRlwifSxcImFjY291bnRcIjp7XCJkZXRhaWxzXCI6XCJDTFRUenVJREVQV253NjRHR0FJPVwiLFwiYWNjb3VudFNpZ25hdHVyZUtleVwiOlwiQXBObW40SlFsblRlZUVrdEtoUkFRRjFOWmtFZWxuRm9yVGlnd05jdzVURT1cIixcImFjY291bnRTaWduYXR1cmVcIjpcIldLWUY3WDZ1QmoxNUgveTU4d1JUZ3ZHaUlVMFA4VSthYzlwTUNpK3lkOUVZVlJpOXFxeVZJZFB6RHdCM1NTTkZqYXN3UUdiV2ZNYkd2bFU2MWJzRUN3PT1cIixcImRldmljZVNpZ25hdHVyZVwiOlwiY0FCZFhYTXNLZHIzc3lneHRYMHhzQjMycGk3OHBaTzltK2wxR2VBQ1N4VDhKLzYzZTNyd0QzbVhTNHd6MnNra0VyL0NLTUgwbWlPeFVheVFFMXR6aVE9PVwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjI1NDc0MTIwNjY3MjoxM0BzLndoYXRzYXBwLm5ldFwiLFwiZGV2aWNlSWRcIjowfSxcImlkZW50aWZpZXJLZXlcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkJRS1RacCtDVUpaMDNuaEpMU29VUUVCZFRXWkJIcFp4YUswNG9NRFhNT1V4XCJ9fV0sXCJwbGF0Zm9ybVwiOlwiYW5kcm9pZFwiLFwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wXCI6MTcwODE4NDU2OH0iCn0= 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
