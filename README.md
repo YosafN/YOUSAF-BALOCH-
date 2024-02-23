@@ -1,4 +1,4 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> █▓▒▒░░░KASH-AI BY EMMKASH TECHNOLOGIES░░░▒▒▓█ </h1> 
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 
@@ -8,8 +8,8 @@
 
 
 <p align="center">
-  <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/ec9bc5038601821f2eb84.jpg">
+  <a href="https://youtube.com/@emmkashtech">
+    <img alt="█▓▒▒░░░KASH-AI BY EMMKASH TECHNOLOGIES░░░▒▒▓█ docs" height="300" src="https://telegra.ph/file/ec9bc5038601821f2eb84.jpg">
   </a>
 </p>
     
@@ -34,7 +34,7 @@
 
 
 
-<p align="center"> Suhail MD whatsapp bot uses
+<p align="center"> █▓▒▒░░░KASH-AI BY EMMKASH TECHNOLOGIES░░░▒▒▓█ whatsapp bot uses
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
 <p align="center">
@@ -44,11 +44,11 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/SuhailTechInfo/Suhail-Md"><b>Suhail-Md</b></a> Support Deploy On...
+  <a href="https://github.com/emmkash20/Suhail-Md"><b>█▓▒▒░░░KASH-AI BY EMMKASH TECHNOLOGIES░░░▒▒▓█</b></a> Support Deploy On...
 </p>
 
 <p align="center">
-  <a href="https://github.com/SuhailTechInfo/Suhail-Md/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
+  <a href="https://github.com/emmkash20/█▓▒▒░░░KASH-AI BY EMMKASH TECHNOLOGIES░░░▒▒▓█/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
   <a href="https://railway.app/template/GZOvIe?referralCode=wVDLrh"><img src="https://img.shields.io/badge/railway-3e164f?style=for-the-badge&logo=railway&logoColor=0B0D0E"></a>
 </p>
 <p align="center">
