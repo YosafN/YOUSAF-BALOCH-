@@ -1,15 +1,15 @@
-const fs = require('fs-extra')
+Niconst fs = require('fs-extra')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.port =process.env.PORT
+global.port =process.655669849
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= suhail || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
@@ -22,7 +22,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "12360215" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
 
