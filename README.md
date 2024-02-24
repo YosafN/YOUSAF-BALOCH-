@@ -106,7 +106,7 @@
 
 
 ### Thanks To
-- [Sam Pamday](https://github.com/Sampandey001) 
+- [Sam Pandey](https://github.com/Sampandey001) 
 
 
 The Suhail_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
