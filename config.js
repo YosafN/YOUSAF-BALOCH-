@@ -57,13 +57,14 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xx
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
+
 module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
-  VERSION : process.env.VERSION || "V.1.2.9-procfile",
+  VERSION : process.env.VERSION || "V.1.2.9-rank",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
@@ -115,9 +116,7 @@ module.exports = {
 
 
 
-
-
-
+global.rank = "updated"
 global.isMongodb = false; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
