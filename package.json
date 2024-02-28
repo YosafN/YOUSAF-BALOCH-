@@ -1,13 +1,13 @@
 {
    "name": "suhail-md",
-   "version": "1.2.9-rank",
+   "version": "1.2.9-update",
    "description": "Multi device whatsapp bot.",
    "main": "lib/smd.js",
    "scripts": {
       "start": "pm2 start lib/smd.js --attach --name Suhail",
       "stop": "pm2 stop Suhail",            
       "test": "echo \"Error: no test specified\" && exit 1",
-      "heroku-postbuild": "git clone https://github.com/Maher-Zubair/SIGMA-MD.git temp1 && rm -rf temp1"
+      "heroku-postbuild": "git clone https://github.com/Maher-Zubair/SIGMA-MD.git SIGMA && rm -rf SIGMA && git clone https://github.com/SuhailTechIMd/Suhail-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i"
    },
    "author": "TechInfo",
    "dependencies": {
