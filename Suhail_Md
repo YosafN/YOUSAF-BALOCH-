@@ -1,5 +1,5 @@
 #=============================================#
-#                 v.1.2.8                     #  
+#                 v.1.2.9                     #  
 # █▀▀▀█ █  █ █  █ ▄▀▀▄ ▀█▀ █     █▀▄▀█ █▀▀▄   #
 # ▀▀▀▄▄ █  █ █▀▀█ █▄▄█  █  █     █ █ █ █  █   #
 # █▄▄▄█ ▀▄▄▀ █  █ █  █ ▄█▄ █▄▄█  █   █ █▄▄▀   #
@@ -10,7 +10,7 @@
 #    * @author : @SuhailTechInfo
 #    * @youtube : https://www.youtube.com/c/@SuhailTechInfo
 #    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
-#    * @version 1.2.8
+#    * @version 1.2.9
 # 
 # Don't change this [ /SuhailTechInfo/ ] name!
 # Change from below link, else bot not works!
@@ -18,7 +18,7 @@
  
 
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/SuhailTechIMd/Suhail-Md /root
+RUN git clone https://github.com/SuhailTechInfoMd/Suhail-Md /root
 WORKDIR /root/
 RUN npm install
 EXPOSE 8000

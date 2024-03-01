@@ -4,7 +4,7 @@
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
   "success_url": "/suhail/",
 
-  "env": {
+  "env": { 
     "PREFIX": {
       "description": "Enter your desired prefix for bot.",
       "value": "."
