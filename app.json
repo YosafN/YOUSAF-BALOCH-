@@ -1,7 +1,7 @@
 {
   "name": "suhail-md@1.2.8",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "logo": "https://i.postimg.cc/cJCCkDkb/cb8e856b-11fa-45b2-8269-489f26bc04a1.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
@@ -32,7 +32,7 @@
     "IMAGE": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      "value": "https://i.postimg.cc/cJCCkDkb/cb8e856b-11fa-45b2-8269-489f26bc04a1.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
