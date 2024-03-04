@@ -1,7 +1,7 @@
 {
   "name": "suhail-md@1.2.8",
-  "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "description": "I am ꧁𝑬𝒍𝒐𝒏 𝑴𝒖𝒔𝒌 𝑻𝑽꧂ Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : DM +2348164067808",
+  "logo": "https://telegra.ph/file/f6d3cacf1fa8aec1aa61e.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
@@ -9,13 +9,13 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "꧁𝑬𝒍𝒐𝒏 𝑴𝒖𝒔𝒌 𝑻𝑽꧂",
       "required" :true
     },   
      
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "true",
+      "value": "false",
       "required" :false
     },
      
@@ -27,17 +27,17 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "💯🍓꧁𝑬𝒍𝒐𝒏 𝑴𝒖𝒔𝒌 𝑻𝑽꧂🍉💯"
     }, 
     "IMAGE": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      "value": "https://telegra.ph/file/f6d3cacf1fa8aec1aa61e.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "Africa/Lagos"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "2348164067808"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -128,12 +128,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "𝑺𝒆𝒏𝒅 𝑯𝒊 𝒕𝒐 08164067808 𝒐𝒏 𝑾𝒂💦💥💥💦",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "C𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝑬𝒍𝒐𝒏 𝑴𝒖𝒔𝒌 𝑻𝑽",
       "required": false 
     }
   }, 
