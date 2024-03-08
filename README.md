@@ -1,4 +1,4 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> Edgah Md </h1> 
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
  
