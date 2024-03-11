@@ -1,7 +1,7 @@
 {
 "_JSON_": true,
 "AUTHOR": "SuhailTechInfo",
-"theme": "Adam",
+"theme": "Keith",
 "LANGUAGE": "English",
 "LANGCODE": "en",
 "STRINGS": {    
@@ -11,7 +11,7 @@
 "UPDATED_LOCAL": "Fresh Updates Installed!"
 },   
 "global": {
-"botName": "ADAM", 
+"botName": "KEITH", 
     
 "body": "SHAZAM!",
 "greet2" : "Hey Buddy",
