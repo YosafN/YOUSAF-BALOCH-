@@ -71,7 +71,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.9",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ HAMZA-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • HAMZA ᴛᴇᴄʜ』*\n https://chat.whatsapp.com/G0RAGHE329OBUE0pfoeZNV"),
+  caption : process.env.CAPTION || "©HAMZA-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ HAMZA-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • HAMZA ᴛᴇᴄʜ』*\n https://chat.whatsapp.com/G0RAGHE329OBUE0pfoeZNV"),
  
   author : process.env.PACK_AUTHER|| "HAMZA-MD",
   packname: process.env.PACK_NAME || "H♥️A",
