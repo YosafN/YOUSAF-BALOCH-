@@ -142,4 +142,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
   //read_status: process.env.AUTO_READ_STATUS || "false",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
- 
+ yarn & start 
+npm install 
+yarn and start 
+npm start
