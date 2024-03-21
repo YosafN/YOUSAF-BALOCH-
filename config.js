@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
+global.email ="AliMuaviya@gmail.com"
 global.location="Lahore,Pakistan."
 
 
@@ -49,7 +49,7 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923283613892,923283613892";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_13_36_03_10_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiZUdvTU82SktxZDFMOW0zUEk3U2VON1lUeFNSVGFvNk9uOWttU3ZXUDhrQT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInRWYTZDemNtcG1vUndkSmljZkF4cFdzSEcvR0V4Wng5V3F0WEhrZHcwbkk9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQ0U4c3VNNlB3U2FLRlNUV3lYUXorYlVRQ25BUGJZbjRwRUYyRG1kNDJGZz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImRvUkorZm1VcGw5enRBd2xWcVFzdkI4clNjdkZiSEk1cE5yOHdubzF5MHM9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiaUlIeDYrQTBaRnRpcHZrUGQrWHZHS3Fkc3M0emJmVmh0ZUdRSUJWL1NuMD1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImcxQ2hNRzJRMEFFdVZSOVRsd3Q5d05RamJxNzBYdm9vN0Y1L0RIb05ReDA9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJ3RmFsQXBQOTZOOW1Ec2xvY0s3VTYvYW4xYUM1bG0zem0zQndDOFFuakhzPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiOFptdlIzTGpEWGpQTXE2cWpmZG9xVVhuMHlOZ1RJSWM4MVMwUXQ2RzdTVT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJlN3U1NWEyZDhqNWh5ZDIxOHdJMUNCWXVjSmd6YWYyaXd1eGY1akFnd0hIRTJyNGRiZTk0S3RZamZCRXRBSjhpZWh2OWJKZUxjd2hKTTJzcVdlc1NCQT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6OTgsXCJhZHZTZWNyZXRLZXlcIjpcIktnYlIrcCtDZUxwVnVsWUJxanV6YnAwc1oyNTN0WVptc013RCtEN3BXcUE9XCIsXCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXNcIjpbXSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjAsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCI2NDJOT3c1b1J6MktTWkc3dVYwY193XCIsXCJwaG9uZUlkXCI6XCIxYjNiY2E1Zi1mYTJlLTRlMDYtYTg4ZS1lYzEzMTcyOTNhNWNcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkhMQkVaNEw1bDlGVTl6eGZoZHliNjd0eVd5OD1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJ4eXg5bllUdW9iMjh6aGVma1d1YVVkaUtmeVU9XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiNlY2RUJRVFBcIixcIm1lXCI6e1wiaWRcIjpcIjkyMzI4MzYxMzg5MjozQHMud2hhdHNhcHAubmV0XCIsXCJuYW1lXCI6XCJCdXNpbmVzcyBNZW5cIixcImxpZFwiOlwiMjAwMjUzMzAzMTY0OTU1OjNAbGlkXCJ9LFwiYWNjb3VudFwiOntcImRldGFpbHNcIjpcIkNQTzExUEVDRU9EdXRxOEdHQUVnQUNnQVwiLFwiYWNjb3VudFNpZ25hdHVyZUtleVwiOlwiT1U1R1h6VzVMdE5aTnJ5aFl5bEZEcjZnWE5qTnlIakMxZ2N0QVJSMWl5bz1cIixcImFjY291bnRTaWduYXR1cmVcIjpcInEramtKejVtcU1XVHdjRWw0emJaM3lXYys2bzZZZlNRYWI1aCtRTy9VR0VpdTloZmVEMDJDQjYzREVsTGhiZjg4V2RyY2NneWpVOGgyS0NJM2hLUkNnPT1cIixcImRldmljZVNpZ25hdHVyZVwiOlwiTC8zWURnK0IzMEdEYnk1VEFQZXBqUXJueXVyby9vNlRBTzhzS0RKYXZTcXRXaXFGejZuenJ6WTlOVTNZNWFpeXk4b0pZK2NVNmNGVWhKdFExR1BHQmc9PVwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjkyMzI4MzYxMzg5MjozQHMud2hhdHNhcHAubmV0XCIsXCJkZXZpY2VJZFwiOjB9LFwiaWRlbnRpZmllcktleVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQlRsT1JsODF1UzdUV1RhOG9XTXBSUTYrb0Z6WXpjaDR3dFlITFFFVWRZc3FcIn19XSxcInBsYXRmb3JtXCI6XCJzbWJhXCIsXCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXBcIjoxNzEwMDc3Nzk1fSIKfQ==" ;
 
 
 module.exports = {
