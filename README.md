@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="DARK docs" height="300" src="https://telegra.ph/file/ec9bc5038601821f2eb84.jpg">
+    <img alt="DARK docs" height="300" src="https://telegra.ph/file/da5793ad9519acd6208e4.jpg">
   </a>
 </p>
     
