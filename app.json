@@ -148,3 +148,7 @@
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ]
 }
+      "AUTO_REACTION": {
+    "description": "Reacts emoji to all messages.",
+     "value": "false",
+     "required": false 
