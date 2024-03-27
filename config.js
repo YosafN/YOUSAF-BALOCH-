@@ -32,15 +32,17 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
+global.style = process.env.STYLE   || '0'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
+global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3,
-global.disablepm = process.env.DISABLE_PM || "false",
-global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "text",
+global.warncount = process.env.WARN_COUNT || 3
+global.disablepm = process.env.DISABLE_PM || "false"
+global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
+
+global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/758549f0de2219884f387.jpg,https://telegra.ph/file/9498496b010dfb5900b80.jpg,https://telegra.ph/file/59bf80efbb6e6576b5a52.jpg,https://telegra.ph/file/ee0e191363161e88e4743.jpg" // ramadan Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -69,7 +71,7 @@ module.exports = {
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
-  VERSION : process.env.VERSION || "1.3.0",
+  VERSION : process.env.VERSION || "1.3.2",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
@@ -88,10 +90,10 @@ module.exports = {
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
-  aitts_Voice_Id : process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  // aitts_Voice_Id : process.env.AITTS_ID || "37",
+  // ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
 
@@ -99,7 +101,8 @@ module.exports = {
 
 
 
-
+global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
 
@@ -138,4 +141,3 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
   //read_status: process.env.AUTO_READ_STATUS || "false",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
- 
