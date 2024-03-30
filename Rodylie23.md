@@ -1,15 +1,15 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> Rodylie23 Md </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
-<h3 align="center"> <a href="https://github.com/SuhailTechInfo/Suhail-Md-Media">🍫 EXTERNAL PLUGINS 🍫</a></h3> 
+<h3 align="center"> <a href="https://github.com/RODYLIE23TechInfo/RODYLIE23-Md-Media">🍫 EXTERNAL PLUGINS 🍫</a></h3> 
 
 <h4 align="center"> ✔️ Fixed Heroku Ban Problem ✔️</h4> 
 
 
 <p align="center">
-  <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="Suhail-Md" height="400" src="https://telegra.ph/file/758549f0de2219884f387.jpg">
+  <a href="https://whatsapp.com/channel/0029VaRHRQj1Hsq1dVYRco3Y">
+    <img alt="rodylie23-Md" height="400" src="https://chat.whatsapp.com/E9ZiBWzLnFKH0jnIen1sxW">
   </a>
 </p>
     
