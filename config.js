@@ -11,8 +11,7 @@ global.email = "njokuchisomjoseph@gmail.com";
 global.location = "Portharcourt,Nigeria.";
 
 global.mongodb =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://suhail:suhail@cluster0.9hfc3pq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
