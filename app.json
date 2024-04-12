@@ -2,7 +2,7 @@
   "name": "suhail-md@1.3.1",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
   "logo": "https://telegra.ph/file/37eb4b3bfd06279104182.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "keywords": ["whatsappbot", "Saad", " Saad Md bot", "Saad-Md", "SaadMdWhatsaooBot", "SaadWaBot","SAAD<3","SAAD Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
   
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "saad"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
@@ -100,11 +100,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "923418595810"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "SUHAIL_20_26_04_11_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQ0pkQnNRdUF5a3RmNnFLbXpYK1lxTjErRkJOQWFIUGh4SU0wR0tUNUdWcz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlZPWXg3a01TclhpNVMwR09SMWNLSGo5Z3ZqZUlUQUFKcExua29GL3ZiRUE9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiYUR5ZE5ERmcvaG04d2J5dmwxall0Q1pEbnU5eDhCMDBRMEEwbFpaOHZWWT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjlLWnBISEJPZXQrdEROZm1kWGd6MWNRUTR5eEIySUZMZEJKT2kyWVJSV3c9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwic082L2w0elRkT0JSSTh2WVBnV1Noa1pMTy9KVlFrNjRQMVlTeEVuMnZWbz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjdObmc4N0ZKSjR3d2NjRGhXWmlzRWovTU0vVTQ5elhrOVJ4MjBJL3ZFUUE9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJxUE5HVVdsMnorMkJ5VzdtcDBmSW8rRTgwd1FaOHFyRjl2ckNjSFhJZUVBPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwidVg5NzFkTkdSdnlSQWtrY2lBQlJNZE5kL2hzd2FNZXF1NVZZRHFsZ3VWdz1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJaT3BtUWdsM1EvTWR1MUhTUy9zVUFWWHZqZTR1ZG1TLzhjVEszWFpWMFB4L3BpcHN3WGhQT01rV2lWVUZ4L0xyVnBpVVI2K25yZzhsSW5PNzdwemxoQT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjA4LFwiYWR2U2VjcmV0S2V5XCI6XCJoUGFUbUVTakJMUFlKenJIUytyVzFPN01Va2dRL3lUUXNES1RpZXU2bnlzPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiOTIzMjM5NjI2NDI0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjlFMzlDRDkzM0EyQjVGNkE1Qjc3MkYzNTQxNTkyNjk0XCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI4NjcyMDV9LHtcImtleVwiOntcInJlbW90ZUppZFwiOlwiOTIzMjM5NjI2NDI0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjdFODRDMzNERTEwNEU5MDYyMTZGNjBEMThFRjJBNDc0XCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI4NjcyMDV9XSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjEsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCJ1V055TllkVVJQcWwyUmtaYUYyV01BXCIsXCJwaG9uZUlkXCI6XCJiZDQwNGZhNC1hYTk2LTQzNTUtOWIyMi1mNGViNGFiM2EwMGFcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInhHSGY1STJmbnpKYmpEWEJTY29FRnB0dWJMaz1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJiRUEwZEhDQmpXRStsMmE5alAvNkVFZzh4K2M9XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiSkNGQVNBUVZcIixcIm1lXCI6e1wiaWRcIjpcIjkyMzIzOTYyNjQyNDoxNUBzLndoYXRzYXBwLm5ldFwiLFwibGlkXCI6XCIxMDQ4ODc4NjYxMTgzNTg6MTVAbGlkXCIsXCJuYW1lXCI6XCLiuJnwk4apwqvhj5rkuYjkuYjhjqDwlJKdwrvqnJvYnPCThqpcIn0sXCJhY2NvdW50XCI6e1wiZGV0YWlsc1wiOlwiQ1BYMjZlSUVFUCtPNGJBR0dBVWdBQ2dBXCIsXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6XCJYV2wxNEhTcTZmbUNLNlB2RXBjM3Y1Z0I5aW1wZG55UEM5Q2sva1dmbVhZPVwiLFwiYWNjb3VudFNpZ25hdHVyZVwiOlwiWi95bW4rRDFxSmhXRkdEaE85RGh2cFZqVmdKN0tyN0R2RVd2RmNMN2IwaitXd1VTR2xuUkl3N01pOWpzUVlRSk1vQ0VRMTlkNitaNjFHYTBvYkRmQ1E9PVwiLFwiZGV2aWNlU2lnbmF0dXJlXCI6XCI4OEc0Z0tsT0dKQldTR2x2WHI1MTk5c0RDRW5xME45bzBaMjZYZnRWVFRzK0VnRVlCcVhmdnU0UUMxMFU5amhCMFJpcGVzM1ZSdG5uR0lUVW5NUVJqdz09XCJ9LFwic2lnbmFsSWRlbnRpdGllc1wiOlt7XCJpZGVudGlmaWVyXCI6e1wibmFtZVwiOlwiOTIzMjM5NjI2NDI0OjE1QHMud2hhdHNhcHAubmV0XCIsXCJkZXZpY2VJZFwiOjB9LFwiaWRlbnRpZmllcktleVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQlYxcGRlQjBxdW41Z2l1ajd4S1hONytZQWZZcHFYWjhqd3ZRcFA1Rm41bDJcIn19XSxcInBsYXRmb3JtXCI6XCJhbmRyb2lkXCIsXCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXBcIjoxNzEyODY3MjAyLFwibXlBcHBTdGF0ZUtleUlkXCI6XCJBQUFBQUp5VVwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQUp5VS5qc29uIjogIntcImtleURhdGFcIjpcIkZlTTZSSThrVEVoZFFKVXRQWDczOGxBazBtOTZLTFl0cUhMaEJsQ3E4SFk9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6MTI4MDk5ODI1NCxcImN1cnJlbnRJbmRleFwiOjEsXCJkZXZpY2VJbmRleGVzXCI6WzAsMV19LFwidGltZXN0YW1wXCI6XCIwXCJ9Igp9"
   
     },
     "OPENAI_API_KEY": {
@@ -128,7 +128,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "Saad",
       "required": false 
     },
     "PACK_AUTHER": {
