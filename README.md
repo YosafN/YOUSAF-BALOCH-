@@ -1,4 +1,4 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> 𓆩«Ꮪ么么Ꭰ𔒝𓆪 </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
