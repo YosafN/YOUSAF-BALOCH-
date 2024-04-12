@@ -7,7 +7,7 @@
   "app_url": "/qr/",
   
   "env": {
-    "OWNER_NAME": {
+    "OWNER_NAME": {Peter Lema 
       "description": "Name for Bot Owner",    
       "value": "Suhail Ser",
       "required" :true
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value"Lema"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
@@ -37,7 +37,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "Kenya/Nairobi"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
@@ -72,7 +72,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required" :false,
-      "value": "unavailable"
+      "value": "Recording"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -96,15 +96,15 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": "@"
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "+254104893409"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ09OY0lJTXAva3JiZXY0YzFKY1FBQ3ZCbmRrSXQwcXN0Rk5HZUZLYVBGMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTlNJMWJmcU1JdHgyNVh3T3F5Ykp1TUttNFBpVG8rUWVXOXhxaDVlNU9IUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwQ0tKTGJCQXRmS3RkeHpCZUtObDdxMHVXVGNyaWI2T084VzVWaldWUkdJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0dVZEd3VLMkJEbktpUjU5U0lMaDdmVVN1cW1oWmhZbWQ3dDRFb1hRbUhVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFFU1JXWDRpRXRSSDRiWDd1c080MXlJRUpjODFSeVBXSEVFUFlpeUJnVzg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im8wVTJ6VTB1VWh0MVBhdzJ2c0hqRDNka3p0cWlSemtNeFFiSkVGc0hlbjg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0pIQUM5KzZGM2wyK1pMazFOcmxCTjRnTlFEZ1dOK2FBYzI1Y3F1RVRXST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0Q5dzJyZWpsTXJuZ2NqNWQzb1p1NXJUQnJFa042OHE3bG52KytYRzZ3ND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imd3SWt1bGFNMEx0bDFueUF6K0pTUjNoM2l1ZnF4a0pDVzlOcXdDQi80OHdiU1kzWjczSWYyMU5VeHByMmhoOVhqVlcwS3ZmVXFlY3oxb2xkOXBIVWh3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjA5LCJhZHZTZWNyZXRLZXkiOiJnOEpvL2Yrck5NV1l6UHhXRkIrQUNzZ2k0MWxzV2Q2RnBIUk9MYmI2SU9jPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NDEwNDg5MzQwOUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJDN0Y1ODg1OUJCNzk3ODVDNDI0QTkyRTQwREU3Q0M0MSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzEyNzc0MzUyfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTQxMDQ4OTM0MDlAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNjM5RDExNEY0OTYyMUY5NzZEN0U2MzNGMzRBQkM3MTIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxMjc3NDM1Mn1dLCJuZXh0UHJlS2V5SWQiOjYxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6NjEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoic2JoVm5hMjVUd3VjSXpPbjVQdVIydyIsInBob25lSWQiOiIzYjE0N2FjMi02MGY1LTRiMTgtOWEzNS1jZTg3NjhlMjRjNDEiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNXh3cW9BTWRWMDRvcGNCNk5mWDVtd0VDbVZFPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjB0RjhzRHRLdHpYSmhBemp4TUdab2lDK1h1TT0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJYMThHNVFZTCIsIm1lIjp7ImlkIjoiMjU0MTA0ODkzNDA5OjE1QHMud2hhdHNhcHAubmV0IiwibmFtZSI6IkNlcGhhcyJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUEhGN2ZnR0VNRzUyN0FHR0FRZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVTQrbkxjd25peVgxeHpMVi9OYnpDZ2dzc1BvUlNEaXY2U2ZOY2hpV0NDTT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiOUFCNDIxUjcvODNDRW1mTml0d3dmRUlFT2x4UFY1VWRwTG9zaFFyQytzRDJ2RWFveU9Qd2s4ZzJZallTcytWaXdrNXZYS2YvUzVUVU1oTWo0ejc5Q2c9PSIsImRldmljZVNpZ25hdHVyZSI6InNzMmJyTWhEWm5sWXJqUURsOG4rZklPRUN6MnA0OTYwNHVueXFWVGFtUVhPWTBoRFNQSXJFZnFOWkYzd2FLZUMzWjh3emdjOWNzdFhiK0lPODFYR2dBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0MTA0ODkzNDA5OjE1QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlZPUHB5M01KNHNsOWNjeTFmelc4d29JTExENkVVZzRyK2tuelhJWWxnZ2oifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTI3NzQzNTAsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBRUhwIn0="
   
     },
     "OPENAI_API_KEY": {
