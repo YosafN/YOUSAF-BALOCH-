@@ -9,7 +9,7 @@ hidden = [".config"]
 [unitTest]
 language = "nodejs"
 
-onBoot = "npm i || yarn"
+offBoot = "npm i || yarn"
 
 [nix]
 channel = "stable-23_05"
