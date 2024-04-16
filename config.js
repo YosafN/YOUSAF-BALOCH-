@@ -17,10 +17,10 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.github=process.env.GITHUB|| "https://github.com/sirenscode";
+global.gurl  =process.env.GURL  || "https://wa.me/254707589396";
+global.website=process.env.GURL || "https://wa.me/254707589396" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/bb374d9e92afbde2bbbfa.png" ; // SET LOGO FOR IMAGE 
 
 
 
