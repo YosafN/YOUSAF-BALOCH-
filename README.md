@@ -1,23 +1,23 @@
- <h1 align="center"> Suhail Md </h1> 
+ <h1 align="center"> EUJAX Md </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
-<h3 align="center"> <a href="https://github.com/SuhailTechInfo/Suhail-Md-Media">🍫 EXTERNAL PLUGINS 🍫</a></h3> 
+<h3 align="center"> <a href="https://github.com/eujaxTechInfo/eujax-Md-Media">🍫 EXTERNAL PLUGINS 🍫</a></h3> 
 
 <h4 align="center"> ✔️ Fixed Heroku Ban Problem ✔️</h4> 
 
 
 <p align="center">
   <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="Suhail-Md" height="400" src="https://telegra.ph/file/758549f0de2219884f387.jpg">
+    <img alt="eujaxine-Md" height="400" src="https://telegra.ph/file/758549f0de2219884f387.jpg">
   </a>
 </p>
     
    
    
 <p align="center">
-   <a href="https://github.com/SuhailTechInfo/Suhail-Md/fork">
-    <img src="https://img.shields.io/github/forks/SuhailTechInfo/Suhail-Md?style=flat-square&logo=github&color=darkred">
+   <a href="https://github.com/eujaxineTechInfo/eujax_Md/fork">
+    <img src="https://img.shields.io/github/forks/SuhailTechInfo/eujax l-Md?style=flat-square&logo=github&color=darkred">
    </a>
   <a href="https://github.com/SuhailTechInfo/Suhail-Md/stargazers"> 
      <img src="https://img.shields.io/github/stars/SuhailTechInfo/Suhail-Md?style=flat-square&logo=github&color=darkred">
