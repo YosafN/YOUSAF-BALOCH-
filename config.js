@@ -1,9 +1,10 @@
-const fs = require('fs-extra')
+const fs = require("fs")
+
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio= "" ;  
+global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || "mongodb+srv://joneltmpkszyu:<password>@cluster0.uvigaem.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"                       // put your app url here,
@@ -53,7 +54,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -62,7 +63,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUFkQVphQVVUYVpmbDRVc1k2YjRPOWh6QUhDK2VvbFdHOTc1RGVjUFNuWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieWxaMmk1WndWL1JLOTdVWjRyb0gxRE15Y0V1UWFiVGFPSVJpT05za3pEZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNRVNTZlUvVzZOSG1kbmszeTlqbDhheVpnZ3VRSnV5TUIyUm0xd1hHWldNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJIaTl5MVZkTlh4MXdSZ2xTVVdkUlJMYU1acFJvaUd0TmNYSmZ1NGhBb1hRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1MWm5kN0NHRnVDYmpGOWJGano5MWpFL0VvODVRRDJDREZNN0x3cStzbWc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imh2b3M4N0dOWHdXMHlvZ1UrUGk5TmQvamdCUVgyTE9BUkNOUWpMYXJVejQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0wwVHVyRGxoNFI0cTgva3hVdmY0N0RLd2lTUEQ0WTJ5eCt4MmhHbERGZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMlNOYXBSaGtUblNQeFB2LzFmSVJWTmNWc0ZIOVNrOVdQSEd0c1RiOFMyMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVzL2dtUGt4NnY4ZEpITFBUUHNjNlhIYVgvcHZ6ZDlNUzRSUWhaeUltc1J6ckZKRVRjZHdEL3pYQXNZMU0wK1BvR3ZhdVJKZEV6cTVIajU4c2Q5QWd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTQsImFkdlNlY3JldEtleSI6Ik94S3hjbUVtMStwcGdHMEV3ZXlOekgzbWxCRXVZV0g5bzJhc1BUYjMvekk9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjU0NzU2NTgwMjA2QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkE0MDcyMkE5RUMzRjRGRTg1RjEzMkI3MjdGNzg2OTZGIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MTMyNzM2Njd9LHsia2V5Ijp7InJlbW90ZUppZCI6IjI1NDc1NjU4MDIwNkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI5NEZBMERGQzRENDg1RUJBREY0NDYxRjY5MzYxRTYxNyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzEzMjczNjY3fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJoX0F0Y09CUFJhZXNyeENfUGVEa3dRIiwicGhvbmVJZCI6ImNmOGNkOGQwLTc4OTEtNGFjYS05OTAzLTQ2NDY4ZjU3ZjNkMiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJaSUtVcmh5cE5wV3E2b1dBVlBQeVFvOTRlTnc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiM0k1VzNJOXdxVHhycVNzK1EvVUllV056R1F3PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IktQTjlYNlFYIiwibWUiOnsiaWQiOiIyNTQ3NTY1ODAyMDY6MThAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiVEhFIEZVVFVSRSBDWUJFUiJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTXUxdlBJQkVMejIrYkFHR0FNZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiTlc4LzF6UDJoZmpSM1lkbU1aVUlvb3Q4TGFsaFJScGhoM1hyVXo3VzdSND0iLCJhY2NvdW50U2lnbmF0dXJlIjoiZjRXVzhGMEI3NWx4SjdrQUxWYUJWdzJqWDA5QXQ5eXF0WXZjWndQVjhtWUIyNHpKdWVJS0QyZmtYUWdid2NHL01VOHVTNC8zZnBncmFpNEkrM1VvQ1E9PSIsImRldmljZVNpZ25hdHVyZSI6ImRUSTdwaUh0cWtlckJJUExheGplMnhSZ0NxUlpBSDhQdzYvaWNzU1ZjRnJWcHRBOGs4MTd4T0xLaGd4SGcyRkFUN2hMNUxaOE04Zy9MMTNuTjlaNmlBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzU2NTgwMjA2OjE4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlRWdlA5Y3o5b1g0MGQySFpqR1ZDS0tMZkMycFlVVWFZWWQxNjFNKzF1MGUifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTMyNzM2NjIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSFVCIn0="  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0tvb3pmejBLczhScnZQNDZHT281YXRReFAyWmN6UHVMb1ZzQW9WTG8yZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidlV1bi9Qd0hHRTdYRTNQSEdnQkZaV2pScGFWbGk3eGJqNDB6VEJ1V3h3Yz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrREx3bWJHM2FQR2hITGtla3AxdGl5WE03UldocmJnZGszcWpXd01mNEZZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOWUtweFE5WXBqcS9JeklPMzFHZ1JSUk5qWnJURUhGTjZDUVZyQVVvQmswPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVQdzVDeVpjbzYxMVpJNURBdUVDWFh0RTdKNmZtRU9WeTdQZ1NSQlp1RXM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNDaGZSYi9YYXk4RGlKcXBDdEJId1VISGlaQ2lrenlIUE0yVTJDeGNGd1k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUZxMHB2WnVTTTVJM1VtanVXTG9DZGVuczl2RUM4Z01FUmlqN2x5S1FsWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV3FmZUg2U29za001VjVJLzlYVk9EWkxxTXVZOGRkMXlNWGRvLzVqSlRHND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNIWGNWM0h2K1orM3FkbXRSYmhwZTcySE52SU1TU21Obit2TC9oSXBqSHdlWjNDQVZvcEFxY1ZydWcvdXVUcWxPdjhtZHY3OElDbG1KSmdhNnBzaEJRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NSwiYWR2U2VjcmV0S2V5IjoiOTlvSGVldzE1a0hoK3ZnalcxYWZZMnpFQmQ5dVZ3bk10Z3JFQ25hZGpXWT0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiTHF3TDlYRkZTQVNSNmY2aDFTeW5WQSIsInBob25lSWQiOiJmNjgyZmRiNy1iN2I1LTRkYjktYmE1My1lYmRjMTBkYTM5YjMiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR1VsYjlkeng5Ym1jTzBuWXBuUUF3NTZUbjFRPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkhoeDY5U0hlc1V5S1h2Y1ZWQkJIaWNpQVJVMD0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJYWlFNTFhaNCIsIm1lIjp7ImlkIjoiMjU0NzA3NTg5Mzk2Ojg0QHMud2hhdHNhcHAubmV0IiwibmFtZSI6IjwvPvCfmJwifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0xURXpQY0hFTGIyL3JBR0dCRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImY0NE5WTUo1MlNlZHJoeUtTQXFhZjIwd3dhNkIrNktYN0t5M2JtVE5rQlk9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkVSRWZ0Z3B3MURVbEhVKzFSSlF6SzBSbVE0Kzh1cC9NQUNJbWxqdFhackRqL3Z6b3p4d2h3Rmo5ekhhTjA4QTNwM3RiMFREclMyaHJ5eVRlUWxDVENBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI0VEdPb0svdHZpTW9CYjNOZW4rZlk2MXNXMmk2ajdJMEFZWW9IWUhMMkRzTjBTdXV4elVSVmdNa2pVUE02bUViL3hhOGhHY0hKSU1ZeHIzR3ZvazBBZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDcwNzU4OTM5Njo4NEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJYK09EVlRDZWRrbm5hNGNpa2dLbW45dE1NR3VnZnVpbCt5c3QyNWt6WkFXIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzEzMzU1NTc3LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUU0RyJ9"  // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -72,12 +73,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : process.env.CAPTION || "©SIRENS-MD" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ SIRENS-MD 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "*©SIRENS-MD*" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ SIRENS-MD 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "SIRENS-MD",
-  ownername:process.env.OWNER_NAME|| "It's SIRENS😁",
+  ownername:process.env.OWNER_NAME|| "*It's SIRENS😁*",
 
 
   errorChat : process.env.ERROR_CHAT || "",
