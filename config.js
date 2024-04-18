@@ -76,15 +76,15 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "USAIMKHAN",
+  ownername:process.env.OWNER_NAME|| "USAIMKHAN",
 
 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "KUZsYerJs2wnTxHrN8jrf2oS",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-C67ehALVHKSGKAwPGvX8T3BlbkFJvzOvva1FVaR1apMJAnS8",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "USAIM KHAN"  ).toUpperCase(),
 
 
 
@@ -100,7 +100,10 @@ module.exports = {
 
 
 
-global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "HttpResponse<String> response = Unirest.post("https://api.elevenlabs.io/v1/text-to-speech/{voice_id}")
+  .header("Content-Type", "application/json")
+  .body("{\n  \"text\": \"<string>\",\n  \"model_id\": \"<string>\",\n  \"voice_settings\": {\n    \"stability\": 123,\n    \"similarity_boost\": 123,\n    \"style\": 123,\n    \"use_speaker_boost\": true\n  },\n  \"pronunciation_dictionary_locators\": [\n    {\n      \"pronunciation_dictionary_id\": \"<string>\",\n      \"version_id\": \"<string>\"\n    }\n  ]\n}")
+  .asString();";
 global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
