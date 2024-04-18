@@ -21,9 +21,9 @@
     "ban": "false",
     "warn": {},
     "rank": {
-      "exp": 28687,
+      "exp": 34292,
       "level": 8,
-      "ttms": 59,
+      "ttms": 63,
       "need": 68030
     }
   },
@@ -1058,5 +1058,19 @@
     "ban": "false",
     "warn": {},
     "rank": {}
+  },
+  "254748643117@s.whatsapp.net": {
+    "id": "254748643117@s.whatsapp.net",
+    "name": "Harry's",
+    "times": 0,
+    "permit": "false",
+    "ban": "false",
+    "warn": {},
+    "rank": {
+      "exp": 3,
+      "level": 1,
+      "ttms": 2,
+      "need": 167
+    }
   }
 }
