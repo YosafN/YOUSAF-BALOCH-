@@ -16,20 +16,20 @@
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : YOUSAF BALOCH 
+   * @author : YOUSAF BALOCH MUSA KHAN 
+   * @youtube : https://youtube.com/@Y.BGamer110
+   * @description : YOUSAF KHAN,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
-   * Created By Suhail Tech Info.
-   * © 2024 Suhail-Md.
+   * Created By Yousaf musaTech Info.
+   * © 2024 YOUSAF MUSA.
 */
 
 
 
-let Suhail_Md = "Suhail MD Whatsapp bot md"
+let Suhail_Md = "YOUSAF BALOCH Whatsapp bot md"
 
 
 const moment = require('moment-timezone')
@@ -457,9 +457,9 @@ smd({
         filename: __filename,
     },
     async(message, text) => {
- if(!text) return await message.reply('Give Me Number without + sign. Example: .iswa 9231844741xx')
+ if(!text) return await message.reply('Give Me Number without + sign. Example: .iswa 923115971525')
         var inputnumber = text.split(" ")[0]
-        if (!inputnumber.includes('x')) return message.reply(`*You did not add x*\nExample: iswa 9231844741xx  \n ${Config.caption}`)
+        if (!inputnumber.includes('x')) return message.reply(`*You did not add x*\nExample: iswa 923115971525  \n ${Config.caption}`)
         message.reply(`*Searching for WhatsApp account in given range...* \n ${Config.caption}`)
 
         function countInstances(string, word) {  return string.split(word).length - 1; }
@@ -510,9 +510,9 @@ smd({
         filename: __filename,
     },
     async(message, text) => {
-if(!text) return await message.reply('Give Me Number without + sign. Example: .nowa 9231844741xx')
+if(!text) return await message.reply('Give Me Number without + sign. Example: .nowa 923115971525')
 const inputNumber = text.split(" ")[0]
-if (!inputNumber.includes('x')) return message.reply(`*You did not add x in number.*\nExample: ${prefix}nowa 9231844741xx  \n ${Config.caption}`)
+if (!inputNumber.includes('x')) return message.reply(`*You did not add x in number.*\nExample: ${prefix}nowa 923115971525  \n ${Config.caption}`)
 message.reply(`*Searching for WhatsApp account in the given range...*\n${Config.caption}`);
 function countInstances(string, word) { return string.split(word).length - 1; }
 const number0 = inputNumber.split('x')[0];
