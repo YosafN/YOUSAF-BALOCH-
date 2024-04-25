@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@Y.BGamer110">
-    <img alt="Suhail-Md" height="400" src="/lib/assets/pk.jpg">
+    <img alt="YOUSAF BALOCH" height="400" src="/lib/assets/pk.jpg">
   </a>
 </p>
     
